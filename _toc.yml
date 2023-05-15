@@ -32,7 +32,7 @@ parts:
         title: Demo 4 - Chemistry
       - url: https://firas.moosvi.com/books/active-learning-technologies/jupyterdays/capacitor_talk/Capacitor.html
         title: Capacitor Lecture
-- caption: Part 1 - Kinematics
+- caption: Deel 1 - Introductie Python
   chapters:
   - file: class/week01/week01_summary
     title: Week 1 - Introductie!
@@ -56,6 +56,8 @@ parts:
       - file: class/week03/test
       - file: class/week03/lab
       - file: class/week03/learninglogs
+- caption: Deel 2 - Python & Data
+  chapters:
   - file: class/week04/week04_summary
     title: Week 4 - Python & Data 1
     sections:
@@ -66,8 +68,6 @@ parts:
       - file: class/week04/test
       - file: class/week04/lab
       - file: class/week04/learninglogs
-- caption: Part 2 - Dynamics
-  chapters:
   - file: class/week05/week05_summary
     title: Week 5 - Python & Data 2
     sections:
@@ -78,6 +78,8 @@ parts:
       - file: class/week05/test
       - file: class/week05/lab
       - file: class/week05/learninglogs
+  - caption: Deel 3 - Visualiseren
+  chapters:
   - file: class/week06/week06_summary
     title: Week 6 - Python & visualiseren
   - file: class/week07/week07_summary
