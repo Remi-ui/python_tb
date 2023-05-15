@@ -1,7 +1,7 @@
 # Book settings
 title: Programmeren in Python
 author: Remi Thüss
-logo: hanzehogeschool-logo-png-transparent.jpg
+logo: images/hanzehogeschool-logo-png-transparent.png
 copyright: ""
 exclude_patterns: ["LICENSE.md", "README.md"]
 only_build_toc_files: true
