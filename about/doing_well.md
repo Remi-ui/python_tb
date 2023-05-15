@@ -10,9 +10,7 @@ The material below has been used and adapted with his permission.
 
 ## Introduction
 
-Your success in this course depends to a large extent how you approach it, and how you engage with the activities, the materials and each other.  
-Here, we give you some ideas and advice on how to do well in the course that you might find useful as you embark on the course.  
-But before that, here are some key ideas about learning that we have used in designing this course activities and assessments: 
+This is a test
 
 ### Learning is a contact sport.
 
