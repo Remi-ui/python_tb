@@ -78,7 +78,7 @@ parts:
       - file: class/week05/test
       - file: class/week05/lab
       - file: class/week05/learninglogs
-  - caption: Deel 3 - Visualiseren
+- caption: Deel 3 - Visualiseren
   chapters:
   - file: class/week06/week06_summary
     title: Week 6 - Python & visualiseren
