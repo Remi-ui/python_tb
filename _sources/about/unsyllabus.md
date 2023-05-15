@@ -1,6 +1,6 @@
 ![](../images/header.jpg)
 
-![](../images/hanzehogeschool-logo-png-transparent.jpg.jpg)
+![](../images/hanzehogeschool-logo-png-transparent.png)
 
 (unsyllabus)=
 # Unsyllabus
