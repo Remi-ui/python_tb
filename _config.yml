@@ -35,10 +35,9 @@ launch_buttons:
   binderhub_url      : "https://mybinder.org"
   thebe              : true
 
-repository: 
-  url          : https://github.com/firasm/jupyterbook_course_template
-  path_to_book : ""
-  branch       : main
+repository:
+  url                       : https://github.com/Remi-ui/python_tb/blob/main/energy_netherlands.ipynb
+  branch                    : main  # Which branch of the repository should be used when creating links (optional)
 
 sphinx:
   config:
