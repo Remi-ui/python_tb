@@ -1,13 +1,8 @@
 format: jb-book
 root: about/unsyllabus
 parts:
-- caption: About this course
+- caption: Over de workshop serie
   chapters:
-  - file: about/pre_term
-  - file: about/syllabus
-  - file: about/course_schedule
-  - file: about/accommodations
-  - file: about/doing_well
   - file: about/faq
 - caption: Demo section
   chapters:
