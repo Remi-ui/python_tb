@@ -23,7 +23,7 @@ html:
   comments:
     hypothesis: false
     utterances:
-      repo: "firasm/jupyterbook_course_template"
+      repo: "remi-ui/python_tb"
     dokieli: false
   extra_footer : |
       <div>
