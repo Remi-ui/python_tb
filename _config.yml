@@ -32,7 +32,7 @@ html:
 
 launch_buttons:
   notebook_interface : "jupyterlab"
-  binderhub_url      : "https://mybinder.org"
+  binderhub_url      : "https://mybinder.org/v2/gh/Remi-ui/python_tb/main"
   thebe              : true
 
 # repository:
