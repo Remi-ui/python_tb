@@ -35,11 +35,10 @@ launch_buttons:
   binderhub_url      : "https://mybinder.org/"
   thebe              : true
 
-# repository:
-#   url                       : https://github.com/Remi-ui/python_tb/blob/main/energy_netherlands.ipynb
-#   branch                    : main  # Which branch of the repository should be used when creating links (optional)
-#   launch_buttons:
-#     colab_url: "https://colab.research.google.com"
+repository:
+  url          : https://github.com/remi-ui/python_tb
+  path_to_book : ""
+  branch       : main
 
 sphinx:
   config:
