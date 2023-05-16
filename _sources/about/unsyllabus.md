@@ -1,4 +1,4 @@
-![](../images/header.jpg)
+![](../images/laptop.jpg)
 
 ![](../images/hanzehogeschool-logo-png-transparent.png)
 
