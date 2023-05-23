@@ -11,7 +11,7 @@ Hello, my name is Firas Moosvi and I am your instructor for Physics 111!
 
 ## Navigating the course website
 
-[Powerpoint Week 1](stuurinformatie_workshop_1_introductie.pptx)
+[Powerpoint Week 1](../../stuurinformatie_workshop_1_introductie.pptx)
 
 
 ## Navigating Mastering Physics
