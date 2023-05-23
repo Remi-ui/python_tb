@@ -12,8 +12,6 @@ Deze week beginnen we met een introductie voor de programmeertaal Python! We gaa
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/jjqgP9dpD1k" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jjqgP9dpD1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Benodigdheden
 
 ## De opdracht
