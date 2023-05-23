@@ -13,6 +13,8 @@ Hello, my name is Firas Moosvi and I am your instructor for Physics 111!
 
 [Powerpoint Week 1](../../stuurinformatie_workshop_1_introductie.pptx)
 
+<a id="raw-url" href="https://github.com/Remi-ui/python_tb/blob/main/stuurinformatie_workshop_1_introductie.pptx">Powerpoint week 1</a>
+
 
 ## Navigating Mastering Physics
 
