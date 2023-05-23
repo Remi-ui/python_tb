@@ -2,8 +2,9 @@
 Week 1
 =======================
 
-This week we will be doing course introductions, I will be showing you how to navigate the course website, and how the course is set up. 
-In terms of content, we will use this week to do a math diagnostic, get everyone access to the textbook and homework system, and understand the syllabus.
+Deze week beginnen we met een introductie. De powerpoint is [hier](../../files/stuurinformatie_workshop_1_introductie.pptx) te vinden. In de komende workshops gaan jullie leren werken met een groot dataset en hoe je deze kunt analyseren met behulp van Python! Hieronder is een GIF te zien met een deel van het eindresultaat.
+
+![GIF Eindresultaat](../../files/map_selfprod.gif)
 
 ## Course Introductions!
 
@@ -11,13 +12,7 @@ Hello, my name is Firas Moosvi and I am your instructor for Physics 111!
 
 ## Navigating the course website
 
-[Powerpoint Week 1](../../stuurinformatie_workshop_1_introductie.pptx)
 
-<a id="raw-url" href="https://github.com/Remi-ui/python_tb/blob/main/stuurinformatie_workshop_1_introductie.pptx">Powerpoint week 1</a>
-
-[Powerpoint Week 1](https://raw.githubusercontent.com/Remi-ui/python_tb/blob/main/stuurinformatie_workshop_1_introductie.pptx)
-
-<a href="../../stuurinformatie_workshop_1_introductie.pptx" download="stuurinformatie_workshop_1_introductie.pptx">download this</a>
 
 ## Navigating Mastering Physics
 
