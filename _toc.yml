@@ -33,24 +33,8 @@ parts:
     title: Week 1 - Introductie!
   - file: class/week02/week02_summary
     title: Week 2 - Python 1
-    sections:
-      - file: class/week02/readings
-      - file: class/week02/videos
-      - file: class/week02/homework
-      - file: class/week02/lecture
-      - file: class/week02/test
-      - file: class/week02/lab
-      - file: class/week02/learninglogs
   - file: class/week03/week03_summary
     title: Week 3 - Python 2
-    sections:
-      - file: class/week03/readings
-      - file: class/week03/videos
-      - file: class/week03/homework
-      - file: class/week03/lecture
-      - file: class/week03/test
-      - file: class/week03/lab
-      - file: class/week03/learninglogs
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week04/week04_summary
