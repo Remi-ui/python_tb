@@ -9,7 +9,7 @@ Deze week beginnen we met een introductie voor de programmeertaal Python! We gaa
 - Wat gaan jullie tijdens de verdere workshops leren?
 
 <div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=jjqgP9dpD1k" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=jjqgP9dpD1k&ab_channel=CS50" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Benodigdheden
