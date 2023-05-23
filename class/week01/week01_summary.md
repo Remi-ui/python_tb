@@ -6,9 +6,13 @@ Deze week beginnen we met een introductie. De powerpoint is [hier](../../files/s
 
 ![GIF Eindresultaat](../../files/map_selfprod.gif)
 
+## Benodigdheden
+- [De powerpoint](../../files/stuurinformatie_workshop_1_introductie.pptx)
+- ![Het Excel bestand](../../files/intro_file_stuurinfo_week_1.xlsx)
+
 ## Opdracht
 
-Deze week gaan jullie eerst het dataset analyseren met Excel. Het dataset bestaat uit een groot aantal Excel bestanden, echter zullen we ons voor deze opdracht richten op één van deze bestanden.
+Deze week gaan jullie eerst het dataset analyseren met Excel. Het dataset bestaat uit een groot aantal Excel bestanden, echter zullen we ons voor deze opdracht richten op één van deze bestanden. Dit bestand kun je ![hier](../../files/intro_file_stuurinfo_week_1.xlsx) downloaden. Verwerk het onderstaande in een verslag van maximaal 3 pagina's en lever dit in via Blackboard in een ***PDF*.
 1. Hoeveel data mist er? In andere woorden, hoeveel cells zijn leeg?
 2. Wat is het gemiddeld aantal smart meters (in procenten)?
 3. Welke postcode heeft het minst aantal connections?
