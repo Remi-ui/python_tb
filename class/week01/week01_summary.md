@@ -6,38 +6,18 @@ Deze week beginnen we met een introductie. De powerpoint is [hier](../../files/s
 
 ![GIF Eindresultaat](../../files/map_selfprod.gif)
 
-## Course Introductions!
+## Opdracht
 
-Hello, my name is Firas Moosvi and I am your instructor for Physics 111! 
+Deze week gaan jullie eerst het dataset analyseren met Excel. Het dataset bestaat uit een groot aantal Excel bestanden, echter zullen we ons voor deze opdracht richten op één van deze bestanden.
+1. Hoeveel data mist er? In andere woorden, hoeveel cells zijn leeg?
+2. Wat is het gemiddeld aantal smart meters (in procenten)?
+3. Welke postcode heeft het minst aantal connections?
+4. Van welke straat of straten mist alle data?
+5. Welke stad consumeert gemiddeld het meest?
+6. Maak 3 grafieken met bijbehorende uitleg waarmee je de data uit het Excel bestand inzichtelijk maakt.
 
-## Navigating the course website
-
-
-
-## Navigating Mastering Physics
-
-```{tip}
-I have added an assignment called "Introduction to Mastering Physics" to help familiarize you with the interface. It is due, but there are no marks associated with it.
-```
-
-## Online polls using Sli.do
-
-Event Code: Physics111
-
-<iframe src="https://app.sli.do/event/lk89xpvr" width="500px" height="700px"></iframe>
-
-## Math Diagnostic
+## Tip
 
 ```{tip}
-I have added an assignment called "Introduction to Mastering Physics" to help familiarize you with the interface. It is due, but there are no marks associated with it.
+Je mag dit in tweetallen doen. Overleg en werk samen met een medestudent.
 ```
-
-## Example videos you should expect to see starting next week
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/yBMeYW8Nm_s" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/OoO5d5P0Jn4" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
