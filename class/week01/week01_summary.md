@@ -16,7 +16,7 @@ Deze week gaan jullie eerst het dataset analyseren met Excel. Het dataset bestaa
 5. Welke stad consumeert gemiddeld het meest?
 6. Maak 3 grafieken met bijbehorende uitleg waarmee je de data uit het Excel bestand inzichtelijk maakt.
 
-## Tip
+## Samenwerken
 
 ```{tip}
 Je mag dit in tweetallen doen. Overleg en werk samen met een medestudent.
