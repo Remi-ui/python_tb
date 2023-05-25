@@ -6,10 +6,8 @@ Week 2
 
 ## Benodigdheden
 - [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
-- Een account op [Codecademy](https://www.codecademy.com/)
+- Een laptop of vaste computer
 
 ## De opdracht
 
-Doorloop het eerste deel van de course [Getting Started with Python for Data Science](https://www.codecademy.com/learn/getting-started-with-python-for-data-science). Dit gaat dus om het deel *Exploring data with python*.
-
-<iframe src="https://www.codecademy.com/courses/getting-started-with-python-for-data-science/" width="100%" height="600px" allowfullscreen></iframe>
+<iframe src="https://colab.research.google.com/drive/1_VPw2B7eAyN4BY1uN9WYQJMJb6bxkMun?usp=sharing" width="100%" height="600px" allowfullscreen></iframe>
