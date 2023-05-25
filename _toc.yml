@@ -47,14 +47,3 @@ parts:
     title: Week 6 - Python & visualiseren
   - file: class/week07/week07_summary
     title: Week 7 - Eindopdracht
-- caption: Final Exam
-  chapters:
-  - file: class/final
-- caption: Lab Materials
-  chapters:
-  - file: class/labs
-    title: Lab Stuff
-- caption: Course Feedback
-  chapters:
-  - file: about/feedback
-    title: Anonymous Feedback Form
