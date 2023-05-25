@@ -33,6 +33,8 @@ parts:
     title: Week 1 - Introductie!
   - file: class/week02/week02_summary
     title: Week 2 - Python 1
+     sections:
+      - file: class/week02/week2_opdracht
   - file: class/week03/week03_summary
     title: Week 3 - Python 2
 - caption: Deel 2 - Python & Data
