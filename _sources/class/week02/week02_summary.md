@@ -13,5 +13,9 @@ Deze week beginnen we met een introductie voor de programmeertaal Python! We gaa
 </div>
 
 ## Benodigdheden
+- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
+- Een account op [Codecademy](https://www.codecademy.com/)
 
 ## De opdracht
+
+Doorloop het eerste deel van de course [Getting Started with Python for Data Science](https://www.codecademy.com/learn/getting-started-with-python-for-data-science). Dit gaat dus om het deel *Exploring data with python*.
