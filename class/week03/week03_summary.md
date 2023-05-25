@@ -1,29 +1,13 @@
 (page_topic3)=
-Week 3 Summary
+Week 3
 =======================
 
-## List of things to do this week
+## Benodigdheden
+- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
+- Een account op [Codecademy](https://www.codecademy.com/)
 
-Below is a list of things you need to do this week, links to where you can do them, as well as roughly the order you should do it.
-Note that these are just SUGGESTIONS and you are by no means required to them this way. 
-I have put the labs at the end, but if your lab section is earlier in the week, you may want to shift things around to accommodate that.
+## De opdracht
 
-<label><input type="checkbox" id="week03_task1" class="box"> [**Read/skim the assigned textbook chapter**](./readings.md)</input></label>
+Doorloop het tweede en derde deel van de course [Getting Started with Python for Data Science](https://www.codecademy.com/learn/getting-started-with-python-for-data-science). Dit gaat dus om de delen *Exploring data with python*.
 
-<label><input type="checkbox" id="week03_task2" class="box"> [**Watch the lecture videos**](./videos.md) </input></label>
-
-
-<label><input type="checkbox" id="week03_task3" class="box"> [**Complete the MasteringPhysics homework**](./homework.md) </input></label>
-
-<label><input type="checkbox" id="week03_task4" class="box"> [**Attend yor tutorial section to get help**](https://canvas.ubc.ca/courses/63995/external_tools/5284) </input></label>
-
-
-```{tip}
-Remember that there are two Homework assignments due this week: HW02 (from week2) and HW03 (from week03).
-```
-
-<label><input type="checkbox" id="week03_task5" class="box"> [**Write the test (60 mins)**](./test.md) </input></label>
-
-<label><input type="checkbox" id="week03_task6" class="box"> [**Complete the lab**](./lab.md) </input></label>
-
-<label><input type="checkbox" id="week03_task7" class="box"> [**Complete your Learning Log assignment**](./learninglogs.md) </input></label>
+<iframe src="https://www.codecademy.com/courses/getting-started-with-python-for-data-science/" width="100%" height="600px" allowfullscreen></iframe>
