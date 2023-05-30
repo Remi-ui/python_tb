@@ -35,6 +35,7 @@ parts:
     title: Week 2 - Python
     sections:
       - file: files/Stuurinformatie_week_2
+      - file: class/demo01/lecture1
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week03/week03_summary
