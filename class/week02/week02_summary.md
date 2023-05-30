@@ -9,4 +9,6 @@ Week 2
 - Een laptop of vaste computer
 
 ## De opdracht
-<script src="https://gist.github.com/Remi-ui/6311f29a285bf6c3b8a0a9b720a2da85.js" width="100%" height="600px" allowfullscreen></script>
+De opdracht voor deze week is te vinden in het menu onder "Opdracht". Ook is de opdracht via de volgende link te vinden:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gi1zc6FYdcR0g1gM1mYBlED56nBNBrgw?usp=sharing)
