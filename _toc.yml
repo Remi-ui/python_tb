@@ -35,6 +35,7 @@ parts:
     sections:
       - file: class/demo01/lecture3
       - file: files/stuurinformatie_week_2
+      - file: class/week02/week2_opdracht
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week03/week03_summary
