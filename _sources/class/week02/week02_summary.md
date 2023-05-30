@@ -14,4 +14,4 @@ Week 2
 
 <iframe src="https://gist.github.com/Remi-ui/6311f29a285bf6c3b8a0a9b720a2da85.js" width="100%" height="600px" allowfullscreen></iframe>
 
-<script src="https://gist.github.com/Remi-ui/6311f29a285bf6c3b8a0a9b720a2da85.js"></script>
+<script src="https://gist.github.com/Remi-ui/6311f29a285bf6c3b8a0a9b720a2da85.js" width="100%" height="600px" allowfullscreen></script>
