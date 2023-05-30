@@ -45,6 +45,9 @@ parts:
     title: Week 4 - Python & Data 2
   - file: class/week05/week05_summary
     title: Week 5 - Python & Data 3
+    sections:
+      - file: class/week05/python_en_data_3
+        title: Opdracht
 - caption: Deel 3 - Visualiseren
   chapters:
   - file: class/week06/week06_summary
