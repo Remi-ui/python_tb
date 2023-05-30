@@ -11,7 +11,6 @@ parts:
     sections:
       - file: class/demo01/lecture1
       - file: class/demo01/lecture2
-      - file: class/demo01/lecture3
   - file: class/demo02/demo02_summary
     title: Demo 2 - Introductory Physics
     sections:
@@ -34,7 +33,7 @@ parts:
   - file: class/week02/week02_summary
     title: Week 2 - Python
     sections:
-      - file: class/demo01/lecture1
+      - file: class/demo01/lecture3
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week03/week03_summary
