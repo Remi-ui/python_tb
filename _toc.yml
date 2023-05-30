@@ -34,11 +34,11 @@ parts:
     title: Week 2 - Python
     sections:
       - file: class/demo01/lecture3
-        title: 1
+        title: eerste
       - file: class/week02/week2_python
-        title: 2
+        title: tweede
       - file: class/week02/week2_opdracht
-        title: 3
+        title: derde
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week03/week03_summary
