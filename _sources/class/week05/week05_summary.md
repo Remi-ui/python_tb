@@ -2,22 +2,11 @@
 Week 5 Summary
 =======================
 
-## List of things to do this week
+## Benodigdheden
+- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
+- Een laptop of vaste computer
 
-Below is a list of things you need to do this week, links to where you can do them, as well as roughly the order you should do it.
-Note that these are just SUGGESTIONS and you are by no means required to them this way. 
-I have put the labs at the end, but if your lab section is earlier in the week, you may want to shift things around to accommodate that.
+## De opdracht
+De opdracht voor deze week is te vinden in het menu onder [Opdracht](https://remi-ui.github.io/python_tb/class/week05/python_en_data_3.html). Ook is de opdracht via de volgende link te vinden:
 
-<label><input type="checkbox" id="week05_task1" class="box"> [**Read/skim the assigned textbook chapter**](./readings.md)</input></label>
-
-<label><input type="checkbox" id="week05_task2" class="box"> [**Watch the lecture videos**](./videos.md) </input></label>
-
-<label><input type="checkbox" id="week05_task3" class="box"> [**Complete the MasteringPhysics homework**](./homework.md) </input></label>
-
-<label><input type="checkbox" id="week05_task4" class="box"> [**Attend yor tutorial section to get help**](https://canvas.ubc.ca/courses/63995/external_tools/5284) </input></label>
-
-<label><input type="checkbox" id="week05_task5" class="box"> [**Write bonus test 01 (60 mins)**](./test.md) </input></label>
-
-<label><input type="checkbox" id="week05_task6" class="box"> [**Complete the lab**](./lab.md) </input></label>
-
-<label><input type="checkbox" id="week05_task7" class="box"> [**Complete your Learning Log assignment**](./learninglogs.md) </input></label>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_z1p62D-4cr4MmiptwPquxX01iJc32lv?usp=sharing)
