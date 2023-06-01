@@ -4,6 +4,8 @@ parts:
 - caption: Over de workshopserie
   chapters:
   - file: about/faq
+  - url: https://colab.research.google.com/
+    title: Werken met Google Colaborate
 - caption: Demo section
   chapters:
   - file: class/demo01/demo01_summary
