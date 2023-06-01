@@ -1,7 +1,9 @@
 format: jb-book
 root: about/unsyllabus
 parts:
-- file: about/faq
+- caption: Over de workshopserie
+  chapters:
+  - file: about/faq
 - caption: Demo section
   chapters:
   - file: class/demo01/demo01_summary
