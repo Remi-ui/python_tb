@@ -3,7 +3,7 @@ Week 3
 =======================
 
 ## Benodigdheden
-- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
+- [De powerpoint](../../files/stuurinformatie_workshop_3_python_2.pptx)
 - Een account op [Codecademy](https://www.codecademy.com/)
 
 ## De opdracht
