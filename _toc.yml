@@ -58,4 +58,4 @@ parts:
     title: Week 7 - Eindopdracht
     sections:
       - file: class/week07/energie_nederland
-      - title: De eindopdracht
+        title: De eindopdracht
