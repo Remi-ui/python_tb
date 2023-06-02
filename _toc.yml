@@ -56,3 +56,6 @@ parts:
     title: Week 6 - Python & visualiseren
   - file: class/week07/week07_summary
     title: Week 7 - Eindopdracht
+    sections:
+      - file: class/week07/energie_nederland
+      - title: De eindopdracht
