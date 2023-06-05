@@ -45,15 +45,12 @@ parts:
     title: Week 3 - Python & Data 1
   - file: class/week04/week04_summary
     title: Week 4 - Python & Data 2
-  - file: class/week05/week05_summary
-    title: Week 5 - Python & Data 3
-    sections:
-      - file: class/week05/python_en_data_3
-        title: Opdracht
 - caption: Deel 3 - Visualiseren
   chapters:
+  - file: class/week05/week05_summary
+    title: Week 5 - Python & visualiseren
   - file: class/week06/week06_summary
-    title: Week 6 - Python & visualiseren
+    title: Week 6 - Eindopdracht
   - file: class/week07/week07_summary
     title: Week 7 - Eindopdracht
     sections:
