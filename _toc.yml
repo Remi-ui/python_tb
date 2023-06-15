@@ -6,28 +6,28 @@ parts:
   - file: about/faq
   - url: https://colab.research.google.com/
     title: Werken met Google Colab
-- caption: Demo section
-  chapters:
-  - file: class/demo01/demo01_summary
-    title: Demo 1 - Data Science
-    sections:
-      - file: class/demo01/lecture1
-      - file: class/demo01/lecture2
-  - file: class/demo02/demo02_summary
-    title: Demo 2 - Introductory Physics
-    sections:
-      - file: class/demo02/videos
-      - file: class/demo02/homework
-      - file: class/demo02/readings
-      - file: class/demo02/lab
-      - file: class/demo02/learninglogs
-      - file: class/demo02/test
-      - file: class/demo03/demo03_summary
-        title: Demo 3 - Shakespeare
-      - file: class/demo04/demo04_summary
-        title: Demo 4 - Chemistry
-      - url: https://firas.moosvi.com/books/active-learning-technologies/jupyterdays/capacitor_talk/Capacitor.html
-        title: Capacitor Lecture
+# - caption: Demo section
+#   chapters:
+#   - file: class/demo01/demo01_summary
+#     title: Demo 1 - Data Science
+#     sections:
+#       - file: class/demo01/lecture1
+#       - file: class/demo01/lecture2
+#   - file: class/demo02/demo02_summary
+#     title: Demo 2 - Introductory Physics
+#     sections:
+#       - file: class/demo02/videos
+#       - file: class/demo02/homework
+#       - file: class/demo02/readings
+#       - file: class/demo02/lab
+#       - file: class/demo02/learninglogs
+#       - file: class/demo02/test
+#       - file: class/demo03/demo03_summary
+#         title: Demo 3 - Shakespeare
+#       - file: class/demo04/demo04_summary
+#         title: Demo 4 - Chemistry
+#       - url: https://firas.moosvi.com/books/active-learning-technologies/jupyterdays/capacitor_talk/Capacitor.html
+#         title: Capacitor Lecture
 - caption: Deel 1 - Introductie Python
   chapters:
   - file: class/week01/week01_summary
