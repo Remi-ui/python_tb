@@ -3,7 +3,7 @@ Week 7 Summary
 =======================
 
 ## Benodigdheden
-- [Het dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip)
+- [De dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip)
 - [Het voorbeeld](https://colab.research.google.com/github/Remi-ui/python_tb/blob/main/energy_netherlands.ipynb)
 
 ## De opdracht
