@@ -1,5 +1,5 @@
 (page_topic4)=
-Week 4 Summary
+Week 4
 =======================
 
 Deze week gaan we bezig met Python en Data.
