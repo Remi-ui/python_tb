@@ -5,7 +5,7 @@ Week 4 Summary
 Deze week gaan we bezig met Python en Data.
 
 ## Benodigdheden
-- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
+- [De powerpoint](../../files/stuurinformatie_workshop_4_python_data_2.pptx)
 - Een account op [Codecademy](https://www.codecademy.com/)
 
 ## De opdracht
