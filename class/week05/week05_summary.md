@@ -5,7 +5,7 @@ Week 6 Summary
 Deze week gaan we bezig met Python en visualisatie.
 
 ## Benodigdheden
-- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
+- [De powerpoint](../../files/stuurinformatie_workshop_5_python_visualisatie.pptx)
 - Een account op [Codecademy](https://www.codecademy.com/)
 
 ## De opdracht
