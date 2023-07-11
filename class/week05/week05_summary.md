@@ -1,5 +1,5 @@
 (page_topic6)=
-Week 6 Summary
+Week 5
 =======================
 
 Deze week gaan we bezig met Python en visualisatie.
