@@ -2,9 +2,4 @@
 Week 6 Summary
 =======================
 
-Deze week gaan we bezig met de eindopdracht
-
-## Benodigdheden
-- [De powerpoint](../../files/stuurinformatie_workshop_2_python_1.pptx)
-
-## De opdracht
+Deze week gaan we bezig met de eindopdracht. De beschrijving van de opdracht kun je vinden in [Week 7](../../files/https://remi-ui.github.io/python_tb/class/week07/week07_summary.html).
