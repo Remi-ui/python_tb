@@ -16,7 +16,7 @@ Maak met behulp van het bovenstaande dataset een analyse van het electriciteitsv
 Je verslag bevat tenminste:
 1. 8 Zelf gemaakte figuren, gemaakt met het gegeven dataset. Je mag het voorbeeld wel gebruiken als hulpmiddel, maar je mag niet dezelfde figuren gebruiken. Als grotere stukken van je code te vinden zijn op het internet is dit plagiaat.
 2. Zelf geschreven code. Je mag ook hierbij wel het voorbeeld verbruiken, maar niet overnemen.
-3. Een beschrijving én analyse van elk figuur
+3. Een beschrijving én analyse van elk figuur.
 4. Een advies aan het ministerie van Economische Zaken en Klimaat op basis van je analyse.
 
 ### Inleveren
@@ -27,7 +27,7 @@ Lever je verslag in als *ipynb* bestand in op Blackboard.
 Je doet deze opdracht in groepen van 4.
 
 ## Beoordelingscriteria
-Voor het beoordelen van de eindopdracht gelden de onderstaande beoordelingscriteria.
+Bij het beoordelen van de eindopdracht gelden de onderstaande beoordelingscriteria.
 
 ### Code (33%)
 - De code is leesbaar.
@@ -35,7 +35,7 @@ Voor het beoordelen van de eindopdracht gelden de onderstaande beoordelingscrite
 - De code is functioneel.
 
 ### Analyse (33%)
-- De analyse is passend bij wat er de figuren te zien is.
+- De analyse is passend bij wat er in de figuren te zien is.
 - In de analyse wordt de data helder geïnterpreteerd.
 - Bij de analyse worden externe bronnen betrokken indien van toepassing.
 
