@@ -30,7 +30,7 @@ Je verslag bevat tenminste:
 </div>
 ```
 
-```{dropdown} Bestanden uit Google Drive gebruiken in Google Colab
+```{dropdown} Bestanden vanuit Google Drive gebruiken in Google Colab
     :class-container: sd-shadow-lg
     :color: primary
 <div class="container youtube">
