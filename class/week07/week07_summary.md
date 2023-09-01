@@ -20,6 +20,24 @@ Je verslag bevat tenminste:
 3. Een beschrijving én analyse van elk figuur.
 4. Een advies aan het ministerie van Economische Zaken en Klimaat op basis van je analyse.
 
+### Hulpmiddelen
+```{dropdown} Google Colab verbinden met Google Drive
+    :class-container: sd-shadow-lg
+    :color: primary
+
+<div class="container youtube">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/6UnCrulz-fE?si=-TcdfuiF0UO79vbA" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+```{dropdown} Bestanden uit Google Drive gebruiken in Google Colab
+    :class-container: sd-shadow-lg
+    :color: primary
+<div class="container youtube">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/VCllZKM7Njk?si=cPtduu1dv0OUzbHZ" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
 ### Inleveren
 Lever je verslag in als *ipynb* bestand in op Blackboard.
 
