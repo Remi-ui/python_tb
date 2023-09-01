@@ -38,6 +38,31 @@ Je verslag bevat tenminste:
 </div>
 ```
 
+```{dropdown} Algemene Google Colab tutorial
+    :class-container: sd-shadow-lg
+    :color: primary
+<div class="container youtube">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/inN8seMm7UI?si=SPtey9bcS7z9vPTi" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+```{dropdown} Matplotlib tutorial
+    :class-container: sd-shadow-lg
+    :color: primary
+<div class="container youtube">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/OZOOLe2imFo?si=9xNtCcxS0FVnj4ku" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+```{dropdown} Pandas tutorial
+    :class-container: sd-shadow-lg
+    :color: primary
+<div class="container youtube">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/vmEHCJofslg?si=x3F8iEZt4PSrtD3b" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+
 ### Inleveren
 Lever je verslag in als *ipynb* bestand in op Blackboard.
 
