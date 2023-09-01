@@ -5,6 +5,7 @@ Week 7
 ## Benodigdheden
 - [De dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip)
 - [Het voorbeeld](https://github.com/Remi-ui/python_tb/blob/main/class/week07/energie_nederland.ipynb)
+- [Overige bestanden](https://github.com/Remi-ui/python_tb/releases/download/Overige_bestanden/geo_files.zip)
 
 ## De opdracht
 Tijdens deze eindopdracht maak je een analyse van het elektriciteitsverbruik in Nederland.
