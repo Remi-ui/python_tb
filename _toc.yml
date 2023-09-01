@@ -1,0 +1,61 @@
+format: jb-book
+root: about/unsyllabus
+parts:
+- caption: Over de workshopserie
+  chapters:
+  - file: about/faq
+  - url: https://colab.research.google.com/
+    title: Werken met Google Colab
+# - caption: Demo section
+#   chapters:
+#   - file: class/demo01/demo01_summary
+#     title: Demo 1 - Data Science
+#     sections:
+#       - file: class/demo01/lecture1
+#       - file: class/demo01/lecture2
+#   - file: class/demo02/demo02_summary
+#     title: Demo 2 - Introductory Physics
+#     sections:
+#       - file: class/demo02/videos
+#       - file: class/demo02/homework
+#       - file: class/demo02/readings
+#       - file: class/demo02/lab
+#       - file: class/demo02/learninglogs
+#       - file: class/demo02/test
+#       - file: class/demo03/demo03_summary
+#         title: Demo 3 - Shakespeare
+#       - file: class/demo04/demo04_summary
+#         title: Demo 4 - Chemistry
+#       - url: https://firas.moosvi.com/books/active-learning-technologies/jupyterdays/capacitor_talk/Capacitor.html
+#         title: Capacitor Lecture
+- caption: Deel 1 - Introductie Python
+  chapters:
+  - file: class/week01/week01_summary
+    title: Week 1 - Introductie!
+  - file: class/week02/week02_summary
+    title: Week 2 - Python
+    sections:
+      - file: class/week02/week2_python
+        title: Python introductie
+      - file: class/week02/Week_2_Opdracht
+        title: Opdracht
+- caption: Deel 2 - Python & Data
+  chapters:
+  - file: class/week03/week03_summary
+    title: Week 3 - Python & Data 1
+    sections:
+      - file: class/week03/Comments_en_errors
+        title: Opdracht
+  - file: class/week04/week04_summary
+    title: Week 4 - Python & Data 2
+- caption: Deel 3 - Visualiseren
+  chapters:
+  - file: class/week05/week05_summary
+    title: Week 5 - Python & visualiseren
+  - file: class/week06/week06_summary
+    title: Week 6 - Eindopdracht
+  - file: class/week07/week07_summary
+    title: Week 7 - Eindopdracht
+    sections:
+      - file: class/week07/energie_nederland
+        title: De eindopdracht
