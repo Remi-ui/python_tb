@@ -4,7 +4,7 @@ Week 7
 
 ## Benodigdheden
 - [De dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip)
-- [Het voorbeeld](https://github.com/Remi-ui/python_tb/blob/main/class/week07/energie_nederland.ipynb)
+- [Het voorbeeld](https://remi-ui.github.io/python_tb/class/week07/energie_nederland.html)
 - [Overige bestanden](https://github.com/Remi-ui/python_tb/releases/download/Overige_bestanden/geo_files.zip)
 
 ## De opdracht
@@ -64,7 +64,7 @@ Je verslag bevat tenminste:
 
 
 ### Inleveren
-Lever je verslag in als *ipynb* bestand in op Blackboard.
+Lever je verslag in als *ipynb* bestand in via eJournal.
 
 ### Samenwerken
 
