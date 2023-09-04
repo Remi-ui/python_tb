@@ -1,0 +1,1175 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Energie in Nederland &#8212; Programmeren in Python</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pdf_print.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom_layouts.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/extra.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "remi-ui/python_tb");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script src="../../_static/save_state.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'class/week07/energie_nederland';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Week 7" href="week07_summary.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../about/unsyllabus.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/hanzehogeschool-logo-png-transparent.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/hanzehogeschool-logo-png-transparent.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../about/unsyllabus.html">
+                    Welkom
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Over de workshopserie</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../about/faq.html">Veelgestelde vragen</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://colab.research.google.com/">Werken met Google Colab</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Deel 1 - Introductie Python</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../week01/week01_summary.html">Week 1 - Introductie!</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week02/week02_summary.html">Week 2 - Python</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week02/week2_python.html">Python introductie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week02/Week_2_Opdracht.html">Opdracht</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Deel 2 - Python &amp; Data</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week03/week03_summary.html">Week 3 - Python &amp; Data 1</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week03/Comments_en_errors.html">Opdracht</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../week04/week04_summary.html">Week 4 - Python &amp; Data 2</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Deel 3 - Visualiseren</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../week05/week05_summary.html">Week 5 - Python &amp; visualiseren</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week06/week06_summary.html">Week 6 - Eindopdracht</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week07_summary.html">Week 7 - Eindopdracht</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">De eindopdracht</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/remi-ui/python_tb/main?urlpath=tree/class/week07/energie_nederland.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="btn__text-container">Live Code</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/remi-ui/python_tb" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/remi-ui/python_tb/issues/new?title=Issue%20on%20page%20%2Fclass/week07/energie_nederland.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/class/week07/energie_nederland.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Energie in Nederland</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zorgen-dat-je-google-drive-te-vinden-is-door-google-colab">Zorgen dat je Google Drive te vinden is door Google Colab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installeren-en-importeren-van-de-nodige-libraries">Installeren en importeren van de nodige libraries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-dataset-van-2020-bekijken">De dataset van 2020 bekijken</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#een-kaart-van-nederland-maken">Een kaart van Nederland maken</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bestanden-inladen-in-een-dataframe">Bestanden inladen in een dataframe</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#samenvoegen-van-de-geologische-data-met-de-data-betreft-het-electrischiteitsverbruik-in-nederland">Samenvoegen van de geologische data met de data betreft het electrischiteitsverbruik in Nederland</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verbruik-van-elektriciteit-in-een-scatterplot">Verbruik van Elektriciteit in een scatterplot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opsplitsen-van-de-data-in-per-vorm-en-per-gemeente-in-nederland">Opsplitsen van de data in per vorm en per gemeente in Nederland</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verbruik-van-elektriciteit-in-nederland-per-gemeente">Verbruik van elektriciteit in Nederland per gemeente</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#een-barplot-van-de-eigen-productie-per-gemeente">Een barplot van de eigen productie per gemeente.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#met-dezelfde-data-kunnen-we-dit-ook-indelen-per-provincie">Met dezelfde data kunnen we dit ook indelen per provincie</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eens-kijken-of-we-over-de-tijd-heen-het-aantal-smartmeters-kunnen-bekijken">Eens kijken of we over de tijd heen het aantal smartmeters kunnen bekijken</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#laten-we-er-een-gif-van-maken">Laten we er een GIF van maken!</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#we-maken-een-aantal-kopieen-zodat-ons-gifje-niet-te-snel-afspeelt">We maken een aantal kopieën zodat ons GIFje niet te snel afspeelt</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="energie-in-nederland">
+<h1>Energie in Nederland<a class="headerlink" href="#energie-in-nederland" title="Permalink to this heading">#</a></h1>
+<p>Het voorbeeld voor de eindopdracht kun je hier openen:</p>
+<p><a class="reference external" href="https://colab.research.google.com/drive/1GeTnXnZ__4cE5fPF_I3Gczj6cM2AC-2L?usp=sharing"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<p>Lever het resultaat als <em>.ipynb</em> bestand in via eJournal. Dit doe je door de volgende stappen te volgen nadat je klaar bent:</p>
+<p>File &gt; Download &gt; Download .ipynb</p>
+<section id="zorgen-dat-je-google-drive-te-vinden-is-door-google-colab">
+<h2>Zorgen dat je Google Drive te vinden is door Google Colab<a class="headerlink" href="#zorgen-dat-je-google-drive-te-vinden-is-door-google-colab" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;google&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">cd</span> drive/MyDrive/electricity_dataset/Electricity
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="installeren-en-importeren-van-de-nodige-libraries">
+<h2>Installeren en importeren van de nodige libraries<a class="headerlink" href="#installeren-en-importeren-van-de-nodige-libraries" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>geopandas
+<span class="o">!</span>pip3<span class="w"> </span>install<span class="w"> </span>basemap
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Importeer de nodige libraries.</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">from</span> <span class="nn">matplotlib.patches</span> <span class="kn">import</span> <span class="n">Polygon</span> <span class="k">as</span> <span class="n">polg</span>
+<span class="kn">from</span> <span class="nn">matplotlib.collections</span> <span class="kn">import</span> <span class="n">PatchCollection</span>
+<span class="kn">from</span> <span class="nn">matplotlib.colors</span> <span class="kn">import</span> <span class="n">Normalize</span>
+<span class="kn">import</span> <span class="nn">geopandas</span> <span class="k">as</span> <span class="nn">gpd</span>
+<span class="kn">from</span> <span class="nn">matplotlib.patches</span> <span class="kn">import</span> <span class="n">Patch</span>
+<span class="kn">from</span> <span class="nn">shapely.geometry</span> <span class="kn">import</span> <span class="n">Point</span><span class="p">,</span> <span class="n">Polygon</span>
+<span class="kn">from</span> <span class="nn">geopandas</span> <span class="kn">import</span> <span class="n">GeoDataFrame</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.cm</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">gridspec</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">from</span> <span class="nn">mpl_toolkits.basemap</span> <span class="kn">import</span> <span class="n">Basemap</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="de-dataset-van-2020-bekijken">
+<h2>De dataset van 2020 bekijken<a class="headerlink" href="#de-dataset-van-2020-bekijken" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Maakt een leeg dataframe.</span>
+<span class="n">df_electricity</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+
+<span class="c1"># Vult dit dataframe met de elektriciteitsdata uit 2020.</span>
+<span class="n">df_electricity</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;coteq_electricity_2020.csv&#39;</span><span class="p">)</span>
+
+<span class="c1"># Laat de eerste 5 items uit het dataset zien.</span>
+<span class="n">df_electricity</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="een-kaart-van-nederland-maken">
+<h2>Een kaart van Nederland maken<a class="headerlink" href="#een-kaart-van-nederland-maken" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Importeert geografische data van Nederland</span>
+<span class="n">geo_nederland</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="s1">&#39;../../geo_files/gadm41_NLD_2.shp&#39;</span><span class="p">)</span>
+
+<span class="c1"># Laat de eerste 5 items uit het dataset zien.</span>
+<span class="n">geo_nederland</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Maakt een plot aan.</span>
+<span class="n">f</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">12</span><span class="p">))</span>
+
+<span class="c1"># Maakt een map aan.</span>
+<span class="n">m</span> <span class="o">=</span> <span class="n">Basemap</span><span class="p">(</span><span class="n">resolution</span><span class="o">=</span><span class="s1">&#39;i&#39;</span><span class="p">,</span>
+            <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;merc&#39;</span><span class="p">,</span>
+            <span class="n">lat_0</span><span class="o">=</span><span class="mf">54.5</span><span class="p">,</span> <span class="n">lon_0</span><span class="o">=-</span><span class="mf">4.36</span><span class="p">,</span>
+            <span class="n">llcrnrlon</span><span class="o">=</span><span class="mf">3.15</span><span class="p">,</span> <span class="n">llcrnrlat</span><span class="o">=</span> <span class="mf">50.7</span><span class="p">,</span> <span class="n">urcrnrlon</span><span class="o">=</span><span class="mf">7.3</span><span class="p">,</span> <span class="n">urcrnrlat</span><span class="o">=</span><span class="mf">53.84</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">drawmapboundary</span><span class="p">(</span><span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">fillcontinents</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;#ffffff&#39;</span><span class="p">,</span><span class="n">lake_color</span><span class="o">=</span><span class="s1">&#39;#3792cb&#39;</span><span class="p">)</span>
+<span class="c1"># Voegt de juiste vormen toe voor een kaart van Nederland.</span>
+<span class="n">m</span><span class="o">.</span><span class="n">readshapefile</span><span class="p">(</span><span class="s1">&#39;../../geo_files/gadm41_NLD_2&#39;</span><span class="p">,</span><span class="s1">&#39;geometry&#39;</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">drawcoastlines</span><span class="p">()</span>
+
+<span class="n">legenda</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">gemeentes</span> <span class="o">=</span> <span class="n">geo_nederland</span><span class="o">.</span><span class="n">NAME_1</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">kleuren</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">color_palette</span><span class="p">(</span><span class="s1">&#39;Paired&#39;</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">gemeentes</span><span class="p">))</span>
+<span class="n">prov_kleur</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">gemeentes</span><span class="p">,</span><span class="n">kleuren</span><span class="p">))</span>
+<span class="c1"># Zorgt ervoor dat elke gemeente binnen de provincie dezelfde kleur heeft.</span>
+<span class="k">for</span> <span class="n">gemeente</span> <span class="ow">in</span> <span class="n">gemeentes</span><span class="p">:</span>
+    <span class="n">prov_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">info</span><span class="p">,</span> <span class="n">shape</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">geometry_info</span><span class="p">,</span> <span class="n">m</span><span class="o">.</span><span class="n">geometry</span><span class="p">):</span>
+        <span class="c1"># Deze shapes moeten blauw worden, want dit zijn wateren.</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">gemeente</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Zeeuwse meren&#39;</span><span class="p">,</span><span class="s1">&#39;IJsselmeer&#39;</span><span class="p">,</span> <span class="s1">&#39;Zuid Hollandse Meren&#39;</span><span class="p">])</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">info</span><span class="p">[</span><span class="s1">&#39;NAME_1&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">gemeente</span><span class="p">):</span>
+            <span class="n">prov_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">polg</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">shape</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span> <span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">PatchCollection</span><span class="p">(</span><span class="n">prov_list</span><span class="p">,</span> <span class="n">facecolor</span><span class="o">=</span> <span class="n">prov_kleur</span><span class="p">[</span><span class="n">gemeente</span><span class="p">],</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">.15</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">gemeente</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Zeeuwse meren&#39;</span><span class="p">,</span><span class="s1">&#39;IJsselmeer&#39;</span><span class="p">]:</span>
+        <span class="n">legenda</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Patch</span><span class="p">(</span><span class="n">facecolor</span><span class="o">=</span><span class="n">prov_kleur</span><span class="p">[</span><span class="n">gemeente</span><span class="p">],</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span>
+                         <span class="n">label</span><span class="o">=</span><span class="n">gemeente</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">handles</span><span class="o">=</span><span class="n">legenda</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="bestanden-inladen-in-een-dataframe">
+<h2>Bestanden inladen in een dataframe<a class="headerlink" href="#bestanden-inladen-in-een-dataframe" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">laad_bestanden</span><span class="p">(</span><span class="nb">map</span><span class="p">,</span><span class="n">bestandenlijst</span><span class="p">):</span>
+<span class="w">  </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Deze functie laadt csv bestanden in uit een map en maakt hier een dataframe van.</span>
+<span class="sd">  Het resultarende dataframe is de combinatie van de data uit de verschillende csv-bestanden.</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">df</span> <span class="o">=</span> <span class="kc">None</span>
+  <span class="c1"># Maakt een initieel dataframe van de meegegeven bestanden.</span>
+  <span class="k">for</span> <span class="n">bestand</span> <span class="ow">in</span> <span class="n">bestandenlijst</span><span class="p">:</span>
+      <span class="n">jaar</span> <span class="o">=</span> <span class="n">bestand</span><span class="p">[</span><span class="o">-</span><span class="mi">8</span><span class="p">:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span>
+      <span class="n">bedrijf</span> <span class="o">=</span> <span class="n">bestand</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+      <span class="k">if</span> <span class="n">df</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+          <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="nb">map</span><span class="o">+</span><span class="n">bestand</span><span class="p">)</span>
+          <span class="n">df</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">jaar</span>
+          <span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">bedrijf</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="n">jaar</span><span class="o">+</span><span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+      <span class="k">else</span><span class="p">:</span>
+          <span class="n">temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="nb">map</span><span class="o">+</span><span class="n">bestand</span><span class="p">)</span>
+          <span class="nb">print</span><span class="p">(</span><span class="nb">map</span><span class="o">+</span><span class="n">bestand</span><span class="p">)</span>
+          <span class="n">temp</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">jaar</span>
+          <span class="n">temp</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">bedrijf</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="n">jaar</span><span class="o">+</span><span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="n">temp</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+          <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">temp</span><span class="p">])</span>
+  <span class="n">df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+  <span class="c1"># Voegt nog een aantal extra kolommen toe aan het eerder gemaakte dataframe.</span>
+  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;laag_tarief_consumptie&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;annual_consume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;annual_consume_lowtarif_perc&#39;</span><span class="p">]</span><span class="o">/</span><span class="mi">100</span><span class="p">)</span>
+  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;actieve_aansluitingen&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;num_connections&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;perc_of_active_connections&#39;</span><span class="p">]</span><span class="o">/</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;int&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+  <span class="k">try</span><span class="p">:</span>
+      <span class="n">df</span><span class="p">[</span><span class="s1">&#39;aantal_smartmeters&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;num_connections&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;smartmeter_perc&#39;</span><span class="p">]</span><span class="o">/</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+  <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+      <span class="n">df</span><span class="p">[</span><span class="s1">&#39;aantal_smartmeters&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;num_connections&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;smartmeter_perc&#39;</span><span class="p">]</span><span class="o">/</span><span class="mi">100</span><span class="p">)</span>
+  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;netto_jaarlijkse_consumtie&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;annual_consume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;delivery_perc&#39;</span><span class="p">]</span><span class="o">/</span><span class="mi">100</span><span class="p">)</span>
+  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;eigen_productie&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;annual_consume&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;netto_jaarlijkse_consumtie&#39;</span><span class="p">]</span>
+  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;percentage_eigen_productie&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;eigen_productie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;annual_consume&#39;</span><span class="p">]</span><span class="o">/</span><span class="mi">100</span><span class="p">)</span>
+
+  <span class="k">return</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+
+<span class="nb">map</span> <span class="o">=</span> <span class="s1">&#39;../Electricity/&#39;</span>
+<span class="n">alle_bestanden</span> <span class="o">=</span> <span class="p">[</span><span class="n">bestand</span> <span class="k">for</span> <span class="n">bestand</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="nb">map</span><span class="p">)]</span>
+<span class="n">alle_jaren_elec</span> <span class="o">=</span> <span class="n">laad_bestanden</span><span class="p">(</span><span class="nb">map</span><span class="p">,</span><span class="n">alle_bestanden</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Laat de eerste 5 items zien uit het dataframe met de elektriciteitsdata uit Nederland van 2010-2020.</span>
+<span class="n">alle_jaren_elec</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="samenvoegen-van-de-geologische-data-met-de-data-betreft-het-electrischiteitsverbruik-in-nederland">
+<h2>Samenvoegen van de geologische data met de data betreft het electrischiteitsverbruik in Nederland<a class="headerlink" href="#samenvoegen-van-de-geologische-data-met-de-data-betreft-het-electrischiteitsverbruik-in-nederland" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Maakt integers van de postcode&#39;s.</span>
+<span class="n">alle_jaren_elec</span><span class="p">[</span><span class="s1">&#39;zipcode_from_int&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">alle_jaren_elec</span><span class="p">[</span><span class="s1">&#39;zipcode_from&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="p">[:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">alle_jaren_elec</span><span class="p">[</span><span class="s1">&#39;zipcode_to_int&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">alle_jaren_elec</span><span class="p">[</span><span class="s1">&#39;zipcode_to&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="p">[:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="c1">#alle_jaren_elec[&#39;zidiff&#39;] = alle_jaren_elec[&#39;zipcode_to_int&#39;] - alle_jaren_elec[&#39;zipcode_from_int&#39;]</span>
+
+<span class="c1"># Verdelen van kolommen in kolommen met percentages, en kolommen met aantallen.</span>
+<span class="n">sumcols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;annual_consume&#39;</span><span class="p">,</span><span class="s1">&#39;num_connections&#39;</span><span class="p">,</span><span class="s1">&#39;laag_tarief_consumptie&#39;</span><span class="p">,</span><span class="s1">&#39;actieve_aansluitingen&#39;</span><span class="p">,</span><span class="s1">&#39;aantal_smartmeters&#39;</span><span class="p">,</span><span class="s1">&#39;netto_jaarlijkse_consumtie&#39;</span><span class="p">,</span><span class="s1">&#39;eigen_productie&#39;</span><span class="p">]</span>
+<span class="n">meancols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;annual_consume_lowtarif_perc&#39;</span><span class="p">,</span><span class="s1">&#39;delivery_perc&#39;</span><span class="p">,</span><span class="s1">&#39;perc_of_active_connections&#39;</span><span class="p">,</span><span class="s1">&#39;smartmeter_perc&#39;</span><span class="p">,</span><span class="s1">&#39;percentage_eigen_productie&#39;</span><span class="p">]</span>
+
+<span class="c1"># Voegt de provider toe aan elk item in het dataset.</span>
+<span class="n">alle_jaren_elec</span><span class="p">[</span><span class="s1">&#39;provider&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">alle_jaren_elec</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)]</span>
+
+<span class="c1"># De geografische data per postcode.</span>
+<span class="n">postalcode_geoloc</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../geo_files/4pp.csv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;postcode&#39;</span><span class="p">,</span><span class="n">drop</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="n">alle_jaren_elec</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">groeperen_postcode</span><span class="p">(</span><span class="n">year</span><span class="p">,</span><span class="n">df</span><span class="p">):</span>
+<span class="w">  </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Deze functie groepeert data op basis van de postcode voor een specifiek jaar.</span>
+<span class="sd">  De output is een dataframe met data voor één jaar.</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">year</span><span class="o">==</span><span class="n">year</span><span class="p">]</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;zipcode_from_int&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="n">sumcols</span><span class="p">]</span><span class="c1">#.count()[&#39;city&#39;]</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;zipcode_from_int&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()[</span><span class="n">meancols</span><span class="p">])</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;zipcode_from_int&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s1">&#39;city&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">rename</span><span class="p">({</span><span class="s1">&#39;city&#39;</span><span class="p">:</span><span class="s1">&#39;code_count&#39;</span><span class="p">},</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;zipcode_from_int&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()[[</span><span class="s1">&#39;city&#39;</span><span class="p">,</span><span class="s1">&#39;provider&#39;</span><span class="p">]])</span>
+  <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
+  <span class="n">pc_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">pc_df</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span><span class="n">values</span><span class="p">)),</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">postalcode_geoloc</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
+
+  <span class="n">geometry</span> <span class="o">=</span> <span class="p">[</span><span class="n">Point</span><span class="p">(</span><span class="n">xy</span><span class="p">)</span> <span class="k">for</span> <span class="n">xy</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">pc_df</span><span class="o">.</span><span class="n">longitude</span><span class="p">,</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">latitude</span><span class="p">)]</span>
+  <span class="n">crs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;init&#39;</span><span class="p">:</span> <span class="s1">&#39;epsg:4326&#39;</span><span class="p">}</span>
+  <span class="n">gdf</span> <span class="o">=</span> <span class="n">GeoDataFrame</span><span class="p">(</span><span class="n">pc_df</span><span class="p">,</span> <span class="n">crs</span><span class="o">=</span><span class="n">crs</span><span class="p">,</span> <span class="n">geometry</span><span class="o">=</span><span class="n">geometry</span><span class="p">)</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">gemeente_toevoegen</span><span class="p">(</span><span class="n">pc_df</span><span class="p">,</span><span class="n">gdf</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">pc_df</span>
+
+<span class="k">def</span> <span class="nf">gemeente_toevoegen</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">geodf</span><span class="p">):</span>
+<span class="w">  </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Deze functie voegt de gemeente ID en de naam van de gemeente toe aan een bestaand dataframe.</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="k">for</span> <span class="n">gemeente</span> <span class="ow">in</span> <span class="n">geo_nederland</span><span class="o">.</span><span class="n">GID_2</span><span class="p">:</span>
+      <span class="n">idx</span> <span class="o">=</span> <span class="n">geo_nederland</span><span class="p">[</span><span class="n">geo_nederland</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="n">gemeente</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+      <span class="n">gemeente_naam</span> <span class="o">=</span> <span class="n">geo_nederland</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span><span class="s1">&#39;NAME_2&#39;</span><span class="p">]</span>
+      <span class="n">ingroup</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">geodf</span><span class="p">[</span><span class="n">geodf</span><span class="p">[</span><span class="s1">&#39;geometry&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">within</span><span class="p">(</span><span class="n">geo_nederland</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span><span class="s1">&#39;geometry&#39;</span><span class="p">])</span><span class="o">==</span><span class="kc">True</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+      <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ingroup</span><span class="p">,</span><span class="s1">&#39;GID_2&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gemeente</span>
+      <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ingroup</span><span class="p">,</span><span class="s1">&#39;NAME_2&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gemeente_naam</span>
+  <span class="k">return</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">data_samenvoegen</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">year</span><span class="p">):</span>
+<span class="w">  </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">  Deze functie resulteert in een dataframe met de data gegroupeerd per gemeente en een dataframe gegroupeerd per polygon vorm voor één specifiek jaar.</span>
+<span class="sd">  &#39;&#39;&#39;</span>
+  <span class="n">pc_df</span> <span class="o">=</span> <span class="n">groeperen_postcode</span><span class="p">(</span><span class="n">year</span><span class="p">,</span><span class="n">df</span><span class="p">)</span>
+  <span class="n">firstcols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;NAME_2&#39;</span><span class="p">,</span><span class="s1">&#39;provincie&#39;</span><span class="p">,</span><span class="s1">&#39;netnummer&#39;</span><span class="p">,</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_provider&#39;</span><span class="p">]</span>
+  <span class="n">meancols_y</span> <span class="o">=</span> <span class="p">[</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">meancols</span><span class="p">]</span>
+  <span class="n">sumcols_y</span> <span class="o">=</span> <span class="p">[</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">sumcols</span><span class="p">]</span>
+  <span class="n">sumcols_y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_code_count&#39;</span><span class="p">)</span>
+  <span class="n">final_frame</span> <span class="o">=</span> <span class="n">pc_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;GID_2&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()[</span><span class="n">firstcols</span><span class="p">]</span>
+  <span class="n">final_frame</span><span class="p">[</span><span class="s1">&#39;GID_2&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">final_frame</span><span class="o">.</span><span class="n">index</span>
+  <span class="n">final_frame</span> <span class="o">=</span> <span class="n">final_frame</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pc_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;GID_2&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()[</span><span class="n">meancols_y</span><span class="p">])</span>
+  <span class="n">final_frame</span> <span class="o">=</span> <span class="n">final_frame</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pc_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;GID_2&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="n">sumcols_y</span><span class="p">])</span>
+  <span class="n">polygon_frame</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+      <span class="s1">&#39;shapes&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">polg</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">shape</span><span class="p">),</span><span class="kc">True</span><span class="p">)</span> <span class="k">for</span> <span class="n">shape</span> <span class="ow">in</span> <span class="n">m</span><span class="o">.</span><span class="n">geometry</span><span class="p">],</span>
+      <span class="s1">&#39;GID_2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">area</span><span class="p">[</span><span class="s1">&#39;GID_2&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">area</span> <span class="ow">in</span> <span class="n">m</span><span class="o">.</span><span class="n">geometry_info</span><span class="p">]})</span>
+
+  <span class="n">polygon_frame</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">final_frame</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+  <span class="n">polygon_frame</span> <span class="o">=</span> <span class="n">polygon_frame</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">final_frame</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">&#39;GID_2&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">final_frame</span><span class="p">,</span> <span class="n">polygon_frame</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="verbruik-van-elektriciteit-in-een-scatterplot">
+<h2>Verbruik van Elektriciteit in een scatterplot<a class="headerlink" href="#verbruik-van-elektriciteit-in-een-scatterplot" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Alle informatie voor 2020.</span>
+<span class="n">pc_2020</span> <span class="o">=</span> <span class="n">groeperen_postcode</span><span class="p">(</span><span class="s1">&#39;2020&#39;</span><span class="p">,</span><span class="n">alle_jaren_elec</span><span class="p">)</span>
+
+<span class="c1"># Plotten van de actieve aansluitingen in 2020</span>
+<span class="n">f</span><span class="p">,</span><span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">12</span><span class="p">))</span>
+<span class="n">pc_2020</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="s1">&#39;longitude&#39;</span><span class="p">,</span><span class="s1">&#39;latitude&#39;</span><span class="p">,</span><span class="n">s</span><span class="o">=</span><span class="n">pc_2020</span><span class="p">[</span><span class="s1">&#39;2020_netto_jaarlijkse_consumtie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="mf">100e2</span><span class="p">)</span>
+                    <span class="p">,</span><span class="n">alpha</span><span class="o">=</span><span class="mf">.4</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Consumptie elektriciteit in 2020&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="opsplitsen-van-de-data-in-per-vorm-en-per-gemeente-in-nederland">
+<h2>Opsplitsen van de data in per vorm en per gemeente in Nederland<a class="headerlink" href="#opsplitsen-van-de-data-in-per-vorm-en-per-gemeente-in-nederland" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Een lijst met alle jaren.</span>
+<span class="n">jaren</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2011&#39;</span><span class="p">,</span> <span class="s1">&#39;2012&#39;</span><span class="p">,</span> <span class="s1">&#39;2013&#39;</span><span class="p">,</span> <span class="s1">&#39;2014&#39;</span><span class="p">,</span> <span class="s1">&#39;2015&#39;</span><span class="p">,</span> <span class="s1">&#39;2016&#39;</span><span class="p">,</span> <span class="s1">&#39;2017&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">,</span> <span class="s1">&#39;2019&#39;</span><span class="p">,</span> <span class="s1">&#39;2020&#39;</span><span class="p">]</span>
+<span class="n">alle_jaren_samengevoegd</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="c1"># Alle jaren samenvoegen in een dictionary en opsplitsen in verbruik per gemeente en verbruik per polygon vorm.</span>
+<span class="k">for</span> <span class="n">jaar</span> <span class="ow">in</span> <span class="n">jaren</span><span class="p">:</span>
+  <span class="n">verbruik_gemeente</span><span class="p">,</span> <span class="n">verbruik_vorm</span> <span class="o">=</span> <span class="n">data_samenvoegen</span><span class="p">(</span><span class="n">alle_jaren_elec</span><span class="p">,</span> <span class="n">jaar</span><span class="p">)</span>
+  <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="n">jaar</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">verbruik_gemeente</span><span class="p">,</span> <span class="n">verbruik_vorm</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="verbruik-van-elektriciteit-in-nederland-per-gemeente">
+<h2>Verbruik van elektriciteit in Nederland per gemeente<a class="headerlink" href="#verbruik-van-elektriciteit-in-nederland-per-gemeente" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Kaart van Nederland opstellen</span>
+<span class="n">f</span><span class="p">,</span><span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">12</span><span class="p">))</span>
+<span class="n">m</span> <span class="o">=</span> <span class="n">Basemap</span><span class="p">(</span><span class="n">resolution</span><span class="o">=</span><span class="s1">&#39;i&#39;</span><span class="p">,</span> <span class="c1"># c, l, i, h, f or None (courseness)</span>
+            <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;merc&#39;</span><span class="p">,</span>
+            <span class="n">lat_0</span><span class="o">=</span><span class="mf">54.5</span><span class="p">,</span> <span class="n">lon_0</span><span class="o">=-</span><span class="mf">4.36</span><span class="p">,</span>
+            <span class="n">llcrnrlon</span><span class="o">=</span><span class="mf">3.15</span><span class="p">,</span> <span class="n">llcrnrlat</span><span class="o">=</span> <span class="mf">50.7</span><span class="p">,</span> <span class="n">urcrnrlon</span><span class="o">=</span><span class="mf">7.3</span><span class="p">,</span> <span class="n">urcrnrlat</span><span class="o">=</span><span class="mf">53.84</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">drawmapboundary</span><span class="p">(</span><span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">fillcontinents</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;#f2f2f2&#39;</span><span class="p">,</span><span class="n">lake_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">readshapefile</span><span class="p">(</span><span class="s1">&#39;../../geo_files/gadm41_NLD_2&#39;</span><span class="p">,</span><span class="s1">&#39;geometry&#39;</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">drawcoastlines</span><span class="p">()</span>
+
+<span class="c1"># Alle data uit 2020 &quot;provincie&quot; een waarde heeft. In dit geval wanneer de polygon een gemeente is.</span>
+<span class="n">pc2</span> <span class="o">=</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="o">~</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s1">&#39;provincie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span>
+<span class="n">pcna</span> <span class="o">=</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s1">&#39;provincie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span>
+<span class="n">pcij</span> <span class="o">=</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="s2">&quot;NLD.6_1&quot;</span><span class="p">)</span><span class="o">|</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="s2">&quot;NLD.6.1_1&quot;</span><span class="p">)]</span>
+
+<span class="n">norm</span> <span class="o">=</span> <span class="n">Normalize</span><span class="p">()</span>
+<span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="s1">&#39;RdBu_r&#39;</span><span class="p">)</span>
+<span class="n">pc</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">pc2</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span><span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">pna2</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">pcna</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">pij2</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">pcij</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># De kleuren van de gemeentes veranderen op basis van de consumptie van elektriciteit in die gemeente.</span>
+<span class="n">pc</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="n">cmap</span><span class="p">(</span><span class="n">norm</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">pc2</span><span class="p">[</span><span class="s1">&#39;2020_annual_consume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">))))</span>
+<span class="n">pna2</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+<span class="n">pij2</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+
+<span class="n">pna2</span><span class="o">.</span><span class="n">set_edgecolor</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+<span class="n">pij2</span><span class="o">.</span><span class="n">set_edgecolor</span><span class="p">(</span><span class="s1">&#39;white&#39;</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pc</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pna2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pij2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Verbruik in 2020 (Log10)&#39;</span><span class="p">)</span>
+<span class="n">mapper</span> <span class="o">=</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">ScalarMappable</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="n">norm</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cmap</span><span class="p">)</span>
+
+<span class="n">mapper</span><span class="o">.</span><span class="n">set_array</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="s1">&#39;2020_annual_consume&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="een-barplot-van-de-eigen-productie-per-gemeente">
+<h2>Een barplot van de eigen productie per gemeente.<a class="headerlink" href="#een-barplot-van-de-eigen-productie-per-gemeente" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Een barplot van het percentage elektriciteit wat zelf geproduceerd wordt per gemeente.</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">55</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;NAME_2&#39;</span><span class="p">],</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;2020_percentage_eigen_productie&#39;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Percentage eigen productie 2020&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Eigen productie (%)&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Gemeente&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">margins</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="met-dezelfde-data-kunnen-we-dit-ook-indelen-per-provincie">
+<h2>Met dezelfde data kunnen we dit ook indelen per provincie<a class="headerlink" href="#met-dezelfde-data-kunnen-we-dit-ook-indelen-per-provincie" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">prov_prod</span> <span class="o">=</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2020&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;provincie&#39;</span><span class="p">])[</span><span class="s1">&#39;2020_percentage_eigen_productie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Percentage eigen productie per provincie 2020&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;provincie&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Percentage (%)&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">prov_prod</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="eens-kijken-of-we-over-de-tijd-heen-het-aantal-smartmeters-kunnen-bekijken">
+<h2>Eens kijken of we over de tijd heen het aantal smartmeters kunnen bekijken<a class="headerlink" href="#eens-kijken-of-we-over-de-tijd-heen-het-aantal-smartmeters-kunnen-bekijken" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">excludecols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;shapes&#39;</span><span class="p">,</span> <span class="s1">&#39;GID_2&#39;</span><span class="p">,</span> <span class="s1">&#39;NAME_2&#39;</span><span class="p">,</span> <span class="s1">&#39;provincie&#39;</span><span class="p">,</span> <span class="s1">&#39;netnummer&#39;</span><span class="p">]</span>
+<span class="n">jaren</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2011&#39;</span><span class="p">,</span> <span class="s1">&#39;2012&#39;</span><span class="p">,</span> <span class="s1">&#39;2013&#39;</span><span class="p">,</span> <span class="s1">&#39;2014&#39;</span><span class="p">,</span> <span class="s1">&#39;2015&#39;</span><span class="p">,</span> <span class="s1">&#39;2016&#39;</span><span class="p">,</span> <span class="s1">&#39;2017&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">,</span> <span class="s1">&#39;2019&#39;</span><span class="p">,</span> <span class="s1">&#39;2020&#39;</span><span class="p">]</span>
+<span class="n">combineddf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+
+<span class="c1"># Data van de verschillende jaren samenvoegen voor het verbruik per vorm (of polygon).</span>
+<span class="k">for</span> <span class="n">jaar</span> <span class="ow">in</span> <span class="n">jaren</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">jaar</span> <span class="o">==</span> <span class="s1">&#39;2011&#39;</span><span class="p">:</span>
+    <span class="n">incols</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2011&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">f</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">excludecols</span><span class="p">]</span>
+    <span class="n">combineddf</span> <span class="o">=</span> <span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2011&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="n">incols</span><span class="p">],</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
+  <span class="k">elif</span> <span class="n">jaar</span> <span class="o">!=</span> <span class="s1">&#39;2018&#39;</span><span class="p">:</span>
+    <span class="n">incols</span> <span class="o">=</span> <span class="p">[</span><span class="n">jaar</span><span class="o">+</span><span class="n">f</span><span class="p">[</span><span class="mi">4</span><span class="p">:]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">incols</span><span class="p">]</span>
+    <span class="n">combineddf</span> <span class="o">=</span> <span class="n">combineddf</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="n">jaar</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="n">incols</span><span class="p">],</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># &quot;param&quot; kun je ook veranderen naar de naam van een andere kolom om iets anders te plotten.</span>
+<span class="n">param</span> <span class="o">=</span> <span class="s1">&#39;smartmeter_perc&#39;</span>
+<span class="n">f</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">35</span><span class="p">))</span>
+<span class="n">gs</span> <span class="o">=</span> <span class="n">gridspec</span><span class="o">.</span><span class="n">GridSpec</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># Onderscheid maken tussen polygons waar data voor is, en polygons waar geen data voor is.</span>
+<span class="n">patch1</span> <span class="o">=</span> <span class="n">combineddf</span><span class="p">[</span><span class="o">~</span><span class="n">combineddf</span><span class="p">[</span><span class="s1">&#39;provincie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span>
+<span class="n">patch2</span> <span class="o">=</span> <span class="n">combineddf</span><span class="p">[</span><span class="n">combineddf</span><span class="p">[</span><span class="s1">&#39;provincie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span>
+<span class="n">patch3</span> <span class="o">=</span> <span class="n">combineddf</span><span class="p">[(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="s2">&quot;NLD.6_1&quot;</span><span class="p">)</span><span class="o">|</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="s2">&quot;NLD.6.1_1&quot;</span><span class="p">)]</span> <span class="c1"># ijsselmeer &amp; zeeuwse meren</span>
+
+<span class="n">jaren</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2011&#39;</span><span class="p">,</span> <span class="s1">&#39;2012&#39;</span><span class="p">,</span> <span class="s1">&#39;2013&#39;</span><span class="p">,</span> <span class="s1">&#39;2014&#39;</span><span class="p">,</span> <span class="s1">&#39;2015&#39;</span><span class="p">,</span> <span class="s1">&#39;2016&#39;</span><span class="p">,</span> <span class="s1">&#39;2017&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">,</span> <span class="s1">&#39;2019&#39;</span><span class="p">,</span> <span class="s1">&#39;2020&#39;</span><span class="p">]</span>
+
+<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="c1"># Voor elk jaar wordt er een kaart aangemaakt.</span>
+<span class="k">for</span> <span class="n">jaar</span> <span class="ow">in</span> <span class="n">jaren</span><span class="p">:</span>
+  <span class="n">y2011</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">x</span><span class="p">]);</span>
+  <span class="n">m</span> <span class="o">=</span> <span class="n">Basemap</span><span class="p">(</span><span class="n">resolution</span><span class="o">=</span><span class="s1">&#39;l&#39;</span><span class="p">,</span>
+              <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;merc&#39;</span><span class="p">,</span>
+              <span class="n">lat_0</span><span class="o">=</span><span class="mf">54.5</span><span class="p">,</span> <span class="n">lon_0</span><span class="o">=-</span><span class="mf">4.36</span><span class="p">,</span>
+              <span class="n">llcrnrlon</span><span class="o">=</span><span class="mf">3.15</span><span class="p">,</span> <span class="n">llcrnrlat</span><span class="o">=</span> <span class="mf">50.7</span><span class="p">,</span> <span class="n">urcrnrlon</span><span class="o">=</span><span class="mf">7.3</span><span class="p">,</span> <span class="n">urcrnrlat</span><span class="o">=</span><span class="mf">53.84</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">y2011</span><span class="p">)</span>
+  <span class="n">m</span><span class="o">.</span><span class="n">drawmapboundary</span><span class="p">(</span><span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span> <span class="c1">#46bcec</span>
+  <span class="n">m</span><span class="o">.</span><span class="n">fillcontinents</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;#f2f2f2&#39;</span><span class="p">,</span><span class="n">lake_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+  <span class="n">m</span><span class="o">.</span><span class="n">readshapefile</span><span class="p">(</span><span class="s1">&#39;../../geo_files/gadm41_NLD_2&#39;</span><span class="p">,</span><span class="s1">&#39;geometry&#39;</span><span class="p">)</span>
+  <span class="n">m</span><span class="o">.</span><span class="n">drawcoastlines</span><span class="p">()</span>
+
+  <span class="n">norm</span> <span class="o">=</span> <span class="n">Normalize</span><span class="p">()</span>
+  <span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="s1">&#39;RdBu_r&#39;</span><span class="p">)</span>
+  <span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="s1">&#39;Oranges&#39;</span><span class="p">)</span>
+  <span class="n">pc</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patch1</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span><span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># De polygons met een waarde.</span>
+  <span class="n">pna</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patch2</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># De polygons zonder waarde.</span>
+  <span class="n">pij</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patch3</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># De polygons van het ijsselmeer en de zeeuwse meren.</span>
+  <span class="n">patch1</span><span class="p">[</span><span class="n">jaar</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">param</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">patch1</span><span class="p">[</span><span class="n">jaar</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">param</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">0</span>
+
+  <span class="c1"># Data wordt genormaliseerd (waardes worden getransformeerd naar waardes tussen 0 en 1).</span>
+  <span class="n">pc</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="n">cmap</span><span class="p">(</span><span class="n">norm</span><span class="p">(</span><span class="n">patch1</span><span class="p">[</span><span class="n">jaar</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">param</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)))</span>
+  <span class="n">pna</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+  <span class="n">pij</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+  <span class="n">y2011</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pc</span><span class="p">)</span>
+  <span class="n">y2011</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pna</span><span class="p">)</span>
+  <span class="n">y2011</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pij</span><span class="p">)</span>
+  <span class="n">mapper</span> <span class="o">=</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">ScalarMappable</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="n">norm</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cmap</span><span class="p">)</span>
+  <span class="n">mapper</span><span class="o">.</span><span class="n">set_array</span><span class="p">(</span><span class="n">combineddf</span><span class="p">[</span><span class="n">jaar</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">param</span><span class="p">])</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">mapper</span><span class="p">,</span> <span class="n">shrink</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Smartmeter percentage, &#39;</span><span class="o">+</span><span class="n">jaar</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+    <span class="n">x</span><span class="o">+=</span><span class="mi">1</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="n">x</span><span class="o">=</span><span class="mi">0</span>
+    <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="laten-we-er-een-gif-van-maken">
+<h2>Laten we er een GIF van maken!<a class="headerlink" href="#laten-we-er-een-gif-van-maken" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">param</span> <span class="o">=</span> <span class="s1">&#39;smartmeter_perc&#39;</span><span class="p">;</span><span class="n">de_titel</span> <span class="o">=</span> <span class="s1">&#39;Smartmeter percentage&#39;</span>
+
+<span class="c1"># Voor elk jaar maken we een afbeelding.</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2011</span><span class="p">,</span><span class="mi">2021</span><span class="p">):</span>
+    <span class="n">year</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+    <span class="n">gs</span> <span class="o">=</span> <span class="n">gridspec</span><span class="o">.</span><span class="n">GridSpec</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">patch1</span> <span class="o">=</span> <span class="n">combineddf</span><span class="p">[</span><span class="o">~</span><span class="n">combineddf</span><span class="p">[</span><span class="s1">&#39;provincie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span>
+    <span class="n">patch2</span> <span class="o">=</span> <span class="n">combineddf</span><span class="p">[</span><span class="n">combineddf</span><span class="p">[</span><span class="s1">&#39;provincie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()]</span>
+    <span class="n">patch3</span> <span class="o">=</span> <span class="n">combineddf</span><span class="p">[(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="s2">&quot;NLD.6_1&quot;</span><span class="p">)</span><span class="o">|</span><span class="p">(</span><span class="n">alle_jaren_samengevoegd</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">GID_2</span><span class="o">==</span><span class="s2">&quot;NLD.6.1_1&quot;</span><span class="p">)]</span> <span class="c1">#ijsselmeer &amp; zeeuwse meren</span>
+
+    <span class="c1"># Hier wordt de kaart van Nederland samengesteld.</span>
+    <span class="n">y2011</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]);</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">Basemap</span><span class="p">(</span><span class="n">resolution</span><span class="o">=</span><span class="s1">&#39;l&#39;</span><span class="p">,</span>
+                <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;merc&#39;</span><span class="p">,</span>
+                <span class="n">lat_0</span><span class="o">=</span><span class="mf">54.5</span><span class="p">,</span> <span class="n">lon_0</span><span class="o">=-</span><span class="mf">4.36</span><span class="p">,</span>
+                <span class="n">llcrnrlon</span><span class="o">=</span><span class="mf">3.15</span><span class="p">,</span> <span class="n">llcrnrlat</span><span class="o">=</span> <span class="mf">50.7</span><span class="p">,</span> <span class="n">urcrnrlon</span><span class="o">=</span><span class="mf">7.3</span><span class="p">,</span> <span class="n">urcrnrlat</span><span class="o">=</span><span class="mf">53.84</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">y2011</span><span class="p">)</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">drawmapboundary</span><span class="p">(</span><span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span> <span class="c1">#46bcec</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">fillcontinents</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;#f2f2f2&#39;</span><span class="p">,</span><span class="n">lake_color</span><span class="o">=</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">readshapefile</span><span class="p">(</span><span class="s1">&#39;../../geo_files/gadm41_NLD_2&#39;</span><span class="p">,</span><span class="s1">&#39;geometry&#39;</span><span class="p">)</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">drawcoastlines</span><span class="p">()</span>
+
+    <span class="c1"># Hier vullen we deze kaart met de gewenste (genormaliseerde) waardes.</span>
+    <span class="n">norm</span> <span class="o">=</span> <span class="n">Normalize</span><span class="p">(</span><span class="n">vmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+    <span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="s1">&#39;RdBu_r&#39;</span><span class="p">)</span>
+    <span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="s1">&#39;Oranges&#39;</span><span class="p">)</span>
+    <span class="n">pc</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patch1</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span><span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># De polygons met een waarde.</span>
+    <span class="n">pna</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patch2</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># De polygons zonder waarde.</span>
+    <span class="n">pij</span> <span class="o">=</span> <span class="n">PatchCollection</span><span class="p">(</span><span class="n">patch3</span><span class="o">.</span><span class="n">shapes</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># De polygons van het ijsselmeer en de zeeuwse meren.</span>
+    <span class="n">pc</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="n">cmap</span><span class="p">(</span><span class="n">norm</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">patch1</span><span class="p">[</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">param</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">+</span><span class="mf">0.00001</span><span class="p">))))</span>
+    <span class="n">pna</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+    <span class="n">pij</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;#46bcec&#39;</span><span class="p">)</span>
+    <span class="n">y2011</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pc</span><span class="p">)</span>
+    <span class="n">y2011</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pna</span><span class="p">)</span>
+    <span class="n">y2011</span><span class="o">.</span><span class="n">add_collection</span><span class="p">(</span><span class="n">pij</span><span class="p">)</span>
+    <span class="n">mapper</span> <span class="o">=</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">ScalarMappable</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="n">norm</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cmap</span><span class="p">)</span>
+    <span class="n">mapper</span><span class="o">.</span><span class="n">set_array</span><span class="p">(</span><span class="n">combineddf</span><span class="p">[</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">param</span><span class="p">])</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">mapper</span><span class="p">,</span> <span class="n">shrink</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">de_titel</span><span class="o">+</span><span class="s1">&#39;, &#39;</span><span class="o">+</span><span class="n">year</span><span class="p">)</span>
+
+    <span class="c1"># Exporteer de afbeelding.</span>
+    <span class="n">my_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">&#39;__file__&#39;</span><span class="p">))</span>
+    <span class="n">results_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">my_path</span><span class="p">,</span> <span class="s1">&#39;../figs/&#39;</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">results_dir</span> <span class="o">+</span> <span class="n">param</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">year</span><span class="o">+</span><span class="s1">&#39;_rdbu.png&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="we-maken-een-aantal-kopieen-zodat-ons-gifje-niet-te-snel-afspeelt">
+<h3>We maken een aantal kopieën zodat ons GIFje niet te snel afspeelt<a class="headerlink" href="#we-maken-een-aantal-kopieen-zodat-ons-gifje-niet-te-snel-afspeelt" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">imageio</span>
+<span class="kn">import</span> <span class="nn">glob</span>
+<span class="kn">from</span> <span class="nn">shutil</span> <span class="kn">import</span> <span class="n">copyfile</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
+
+<span class="c1"># Het pad naar de .png bestanden.</span>
+<span class="n">my_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">&#39;__file__&#39;</span><span class="p">))</span>
+<span class="n">results_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">my_path</span><span class="p">,</span> <span class="s1">&#39;../figs/&#39;</span><span class="p">)</span>
+
+<span class="c1"># Maak een kopie van elk bestand zodat het GIFje wat minder snel loopt.</span>
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">results_dir</span><span class="p">):</span>
+  <span class="n">copyfile</span><span class="p">(</span><span class="n">results_dir</span><span class="o">+</span><span class="n">file</span><span class="p">,</span> <span class="n">results_dir</span><span class="o">+</span><span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39;_1.png&#39;</span><span class="p">)</span>
+  <span class="n">copyfile</span><span class="p">(</span><span class="n">results_dir</span><span class="o">+</span><span class="n">file</span><span class="p">,</span> <span class="n">results_dir</span><span class="o">+</span><span class="n">file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39;_2.png&#39;</span><span class="p">)</span>
+
+<span class="n">files</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">results_dir</span><span class="p">))</span>
+<span class="n">images</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="c1"># Maak het .gif bestand aan.</span>
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+    <span class="n">images</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">imageio</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">results_dir</span><span class="o">+</span><span class="n">file</span><span class="p">))</span>
+<span class="n">imageio</span><span class="o">.</span><span class="n">mimsave</span><span class="p">(</span><span class="s1">&#39;../figs/map_selfprod.gif&#39;</span><span class="p">,</span> <span class="n">images</span><span class="p">)</span>
+
+<span class="n">Image</span><span class="p">(</span><span class="s2">&quot;../figs/map_selfprod.gif&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "remi-ui/python_tb",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./class/week07"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="week07_summary.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Week 7</p>
+      </div>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zorgen-dat-je-google-drive-te-vinden-is-door-google-colab">Zorgen dat je Google Drive te vinden is door Google Colab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installeren-en-importeren-van-de-nodige-libraries">Installeren en importeren van de nodige libraries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-dataset-van-2020-bekijken">De dataset van 2020 bekijken</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#een-kaart-van-nederland-maken">Een kaart van Nederland maken</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bestanden-inladen-in-een-dataframe">Bestanden inladen in een dataframe</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#samenvoegen-van-de-geologische-data-met-de-data-betreft-het-electrischiteitsverbruik-in-nederland">Samenvoegen van de geologische data met de data betreft het electrischiteitsverbruik in Nederland</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verbruik-van-elektriciteit-in-een-scatterplot">Verbruik van Elektriciteit in een scatterplot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opsplitsen-van-de-data-in-per-vorm-en-per-gemeente-in-nederland">Opsplitsen van de data in per vorm en per gemeente in Nederland</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verbruik-van-elektriciteit-in-nederland-per-gemeente">Verbruik van elektriciteit in Nederland per gemeente</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#een-barplot-van-de-eigen-productie-per-gemeente">Een barplot van de eigen productie per gemeente.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#met-dezelfde-data-kunnen-we-dit-ook-indelen-per-provincie">Met dezelfde data kunnen we dit ook indelen per provincie</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eens-kijken-of-we-over-de-tijd-heen-het-aantal-smartmeters-kunnen-bekijken">Eens kijken of we over de tijd heen het aantal smartmeters kunnen bekijken</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#laten-we-er-een-gif-van-maken">Laten we er een GIF van maken!</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#we-maken-een-aantal-kopieen-zodat-ons-gifje-niet-te-snel-afspeelt">We maken een aantal kopieën zodat ons GIFje niet te snel afspeelt</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Remi Thüss
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+    All content on this site (unless otherwise specified) is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
