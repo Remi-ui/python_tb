@@ -11,7 +11,7 @@ Veelgestelde vragen
 
 3. Waar lever ik de opdrachten in?
 
-> De opdrachten kun je inleveren via Blackboard.
+> De opdrachten kun je inleveren via eJournal.
 
 4. Hoe kan ik verder na het volgen van de workshops?
 
