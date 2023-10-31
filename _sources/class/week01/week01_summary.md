@@ -18,10 +18,10 @@ Deze week gaan jullie eerst het dataset analyseren met Excel. Het dataset bestaa
 3. Welke postcode heeft het minst aantal connections?
 4. Van welke straat of straten mist alle data?
 5. Welke stad consumeert gemiddeld het meest?
-6. Maak 3 grafieken met bijbehorende uitleg waarmee je de data uit het Excel bestand inzichtelijk maakt.
+6. Maak 3 grafieken, met bijbehorende uitleg, waarmee je de data uit het Excel bestand inzichtelijk maakt.
 
 ## Samenwerken
 
 ```{tip}
-Je doet deze opdracht in tweetallen. Maak afspraken over hoe je de opdracht verdeelt.
+Je doet deze opdracht in tweetallen. Maak afspraken over hoe je de opdracht gezamelijk uitvoert.
 ```
