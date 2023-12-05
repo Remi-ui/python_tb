@@ -10,6 +10,6 @@ Deze week gaan we bezig met Python en visualisatie.
 
 ## De opdracht
 
-Doorloop het eerstee en tweede deel van de course [Data Visualization with Python](https://www.codecademy.com/learn/data-visualization-python). Dit gaat dus om de delen *Make a Line Chart* en *Make the Other Charts*.
+Doorloop het eerstee en tweede deel van de course [Intro to Data Visualization with Python](https://www.codecademy.com/learn/intro-to-data-visualization-with-python). Dit gaat dus om de delen *Make a Line Chart* en *Make the Other Charts*.
 
-<iframe src="https://www.codecademy.com/learn/data-visualization-python" width="100%" height="600px" allowfullscreen></iframe>
+<iframe src="https://www.codecademy.com/learn/intro-to-data-visualization-with-python" width="100%" height="600px" allowfullscreen></iframe>
