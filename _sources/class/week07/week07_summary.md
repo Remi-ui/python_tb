@@ -19,6 +19,7 @@ Je verslag bevat tenminste:
 2. Zelf geschreven code. Je mag het voorbeeld gebruiken als hulpmiddel, maar je mag niet dezelfde figuren gebruiken. Als grotere stukken van je code te vinden zijn op het internet of geschreven is door programma's als ChatGPT, is dit plagiaat.
 3. Een beschrijving én analyse van elk figuur.
 4. Een advies aan het ministerie van Economische Zaken en Klimaat op basis van je analyse.
+5. De individuele bijdrage is inzichtelijk gemaakt.
 
 ### Hulpmiddelen
 ```{dropdown} Google Colab verbinden met Google Drive
@@ -66,7 +67,7 @@ Je verslag bevat tenminste:
     :class-container: sd-shadow-lg
     :color: primary
 <div class="container youtube">
-<iframe class="responsive-iframe" src="https://youtu.be/kqtD5dpn9C8?si=yJa8QhUPTkBNK8l2" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/kqtD5dpn9C8?si=qktt1FBzfntIMSST" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ```
 
