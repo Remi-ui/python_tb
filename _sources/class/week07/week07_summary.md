@@ -13,7 +13,7 @@ Tijdens deze eindopdracht maak je een analyse van het elektriciteitsverbruik in 
 ### Omschrijving
 Maak met behulp van het bovenstaande dataset een analyse van het electriciteitsverbruik in Nederland. Stel een Google Colab document op waarin je een aantal zelf gemaakte figuren laat zien en beschrijf de resultaten. Analyseer vervolgens de resultaten en breng op basis van de resultaten een advies uit aan het ministerie van Economische Zaken en Klimaat. De figuren, beschrijving en analyse doe je in een Google Colaborate document. Hoe je kunt schrijven in een Google Colab document kun je [hier](https://colab.research.google.com/notebooks/markdown_guide.ipynb) vinden. Dit is je kans om je Python skills te laten zien!
 
-Let er op dat om het voorbeeld werkende te krijgen, je de [Overige bestanden](https://github.com/Remi-ui/python_tb/releases/download/Overige_bestanden/geo_files.zip) moet downloaden, uitpakken (want het is een .zip bestand), en in je Drive moet plaatsen.
+Let er op dat om het voorbeeld werkende te krijgen, je de [de dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip) uitgepakt (want het is een .zip bestand) in je drive moet plaatsen. Je plaats dus de folder genaamd "Electricity" in je Google Drive. Tevens moet je de [overige bestanden](https://github.com/Remi-ui/python_tb/releases/download/Overige_bestanden/geo_files.zip) downloaden, uitpakken (want het is een .zip bestand), en in je Drive moet plaatsen. Houd verander ook hierbij de folder naam (geo_files) niet.
 
 ### Voorwaarden
 Je verslag bevat tenminste:
