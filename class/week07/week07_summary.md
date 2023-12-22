@@ -15,7 +15,7 @@ Maak met behulp van het bovenstaande dataset een analyse van het electriciteitsv
 
 Let er op dat om het voorbeeld werkende te krijgen, je de [de dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip) uitgepakt (want het is een .zip bestand) in je drive moet plaatsen. Je plaats dus de folder genaamd "Electricity" in je Google Drive. Tevens moet je de [overige bestanden](https://github.com/Remi-ui/python_tb/releases/download/Overige_bestanden/geo_files.zip) downloaden, uitpakken (want het is een .zip bestand), en in je Drive moet plaatsen. Verander hierbij de folder naam (geo_files) niet.
 
-Verder krijg je bij het uitvoeren van het voorbeeld waarschijnlijk errors gerelateerd aan het niet bestaan van bepaalde mappen/bestanden. Dit komt doordat de mappenstructuur op jouw Google Drive waarschijnlijk anders is dan de aangenomen mappenstructuur in het voorbeeld. Hoe je hiermee om kunt gaan kun je [hier](https://www.youtube.com/watch?v=InZ16tcM9Pc&ab_channel=DataProfessor) vinden.
+Verder krijg je bij het uitvoeren van het voorbeeld waarschijnlijk errors gerelateerd aan het niet bestaan van bepaalde mappen/bestanden. Dit komt doordat de mappenstructuur binnen jouw Google Drive waarschijnlijk anders is dan de aangenomen mappenstructuur in het voorbeeld. Hoe je hiermee om kunt gaan kun je [hier](https://www.youtube.com/watch?v=InZ16tcM9Pc&ab_channel=DataProfessor) vinden.
 
 ### Voorwaarden
 Je verslag bevat tenminste:
