@@ -12,7 +12,7 @@ Week 3
 2. Doorloop het eerste deel van de course [Getting Started with Python for Data Science](https://www.codecademy.com/learn/getting-started-with-python-for-data-science). Dit gaat dus om het deel *Exploring data with python*.
 
 ```{tip}
-Bij Codecademy gedeelte van de opdracht hoef je alleen het "Lesson" gedeelte te maken. Het project en de quiz (waar je voor moet betalen), mag je overslan. Dit geldt ook voor volgende Codecademy opdrachten.
+Binnen het Codecademy gedeelte van de opdracht hoef je alleen het "Lesson" gedeelte te maken. Het project en de quiz (waar je voor moet betalen), mag je overslan. Dit geldt ook voor volgende Codecademy opdrachten.
 ```
 
 <iframe src="https://www.codecademy.com/courses/getting-started-with-python-for-data-science/" width="100%" height="600px" allowfullscreen></iframe>
