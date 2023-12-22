@@ -18,4 +18,4 @@ Binnen het Codecademy gedeelte van de opdracht hoef je alleen het "Lesson" gedee
 <iframe src="https://www.codecademy.com/courses/getting-started-with-python-for-data-science/" width="100%" height="600px" allowfullscreen></iframe>
 
 ## Deadline
-De deadline voor opdracht 3 is de donderdagavond (23.59) de week na deze workshop.
+De deadline voor het eerste gedeelte van opdracht 3 is de donderdagavond (23.59) de week na deze workshop. De deadline voor het Codecademy gedeelte is de volgende workshop. Tijdens de volgende workshop (week 4) wordt de Codecademy opdracht tijdens de workshop afgetekend.
