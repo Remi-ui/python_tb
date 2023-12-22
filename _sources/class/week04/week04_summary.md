@@ -13,3 +13,6 @@ Deze week gaan we bezig met Python en Data.
 Doorloop het tweede en derde deel van de course [Getting Started with Python for Data Science](https://www.codecademy.com/learn/getting-started-with-python-for-data-science). Dit gaat dus om de delen *Sorting and filtering rows* en *Cleaning and transforming columns*.
 
 <iframe src="https://www.codecademy.com/courses/getting-started-with-python-for-data-science/" width="100%" height="600px" allowfullscreen></iframe>
+
+## Deadline
+De deadline voor opdracht 4 is de volgende workshop. Tijdens de volgende workshop (week 5) wordt de Codecademy opdracht tijdens de workshop afgetekend.
