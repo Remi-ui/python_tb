@@ -20,7 +20,7 @@ Verder krijg je bij het uitvoeren van het voorbeeld waarschijnlijk errors gerela
 ### Voorwaarden
 Je verslag bevat tenminste:
 1. 8 Zelf gemaakte figuren, gemaakt met het gegeven dataset.
-2. Zelf geschreven code. Je mag het voorbeeld gebruiken als hulpmiddel, maar je mag niet dezelfde figuren gebruiken. Als grotere stukken van je code te vinden zijn op het internet of geschreven is door programma's als ChatGPT, is dit plagiaat.
+2. Zelf geschreven code. Je mag het voorbeeld gebruiken als hulpmiddel, maar je mag niet dezelfde figuren gebruiken. Als grotere stukken van je code te vinden zijn op het internet of geschreven is door programma's als ChatGPT, is dit plagiaat. Programma's als ChatGPT en hulpmiddelen als Stackoverflow mogen uiteraard gebruikt worden, echter moet hierbij de bron altijd vermeld worden. Ook hierbij mag het niet gaan om grotere stukken code.
 3. Een beschrijving én analyse van elk figuur.
 4. Een advies aan het ministerie van Economische Zaken en Klimaat op basis van je analyse.
 5. De individuele bijdrage is inzichtelijk gemaakt.
@@ -88,7 +88,7 @@ Je verslag bevat tenminste:
 Lever je verslag in als *ipynb* bestand in via eJournal. Dit betekent dus dat zowel het verslag, als de code aanwezig is in je .ipynb bestand.
 
 ### Deadline
-De deadline voor deze opdracht is donderdag 11 januari 23.59.
+De deadline voor deze opdracht is donderdag 13 juni 23.59.
 
 ### Samenwerken
 Je doet deze opdracht in groepen van 3 of 4.
@@ -99,8 +99,9 @@ Bij het beoordelen van de eindopdracht gelden de onderstaande beoordelingscriter
 ### Code (33%)
 - De code is leesbaar.
 - De code is voorzien van commentaar.
-- De code is functioneel.
-- De code is zelf geschreven.
+- Het commentaar beschrijft wat de code doet en geeft uitleg over de gezette denkstappen.
+- De code is functioneel, waarbij de gezette denkstappen in het commentaar zijn opgenomen.
+- De code is zelf geschreven, waarbij hulpmiddelen zijn toegestaan.
 - De code is van voldoende niveau.
 
 ### Analyse (33%)
