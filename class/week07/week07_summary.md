@@ -1,6 +1,8 @@
 (page_topic7)=
 Week 7
 =======================
+## Powerpoint week 7
+- De Powerpoint van deze week is [hier](../../files/stuurinformatie_workshop_7.pptx) te vinden.
 
 ## Benodigdheden
 - [De dataset](https://github.com/Remi-ui/python_tb/releases/download/Electricity_dataset/Electricity.zip)
