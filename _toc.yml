@@ -34,7 +34,7 @@ parts:
     title: Week 1 - Introductie!
     sections:
       - file: class/week01/Python_basis
-        title: Opdracht test
+        title: Opdracht
   - file: class/week02/week02_summary
     title: Week 2 - Python
     sections:
