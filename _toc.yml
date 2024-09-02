@@ -35,13 +35,15 @@ parts:
     sections:
       - file: class/week01/Python_basis
         title: Opdracht
+      - file: class/week02/Week_2_Opdracht
+        title: Opdracht 123
   - file: class/week02/week02_summary
     title: Week 2 - Python
     sections:
       - file: class/week02/week2_python
         title: Python introductie
       - file: class/week02/Week_2_Opdracht
-        title: Opdracht test
+        title: Opdracht
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week03/week03_summary
