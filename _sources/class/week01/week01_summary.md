@@ -8,20 +8,14 @@ Deze week beginnen we met een introductie. De powerpoint is [hier](../../files/s
 
 ## Benodigdheden
 - [De powerpoint](../../files/stuurinformatie_workshop_1_introductie.pptx)
-- [Het Excel bestand](../../files/intro_file_stuurinfo_week_1.xlsx)
+- Een laptop of vaste computer
 
-## Opdracht
+## De opdracht
+De opdracht voor deze week is te vinden in het menu onder [Opdracht](https://remi-ui.github.io/python_tb/class/week01/Python_basis.html).
 
-Deze week gaan jullie eerst het dataset analyseren met Excel. Het dataset bestaat uit een groot aantal Excel bestanden, echter zullen we ons voor deze opdracht richten op één van deze bestanden. Dit bestand kun je [hier](../../files/intro_file_stuurinfo_week_1.xlsx) downloaden. Verwerk het onderstaande in een verslag van maximaal 3 pagina's en lever dit in via eJournal in een **PDF** bestand. De opdracht doe je in tweetallen.
-1. Hoeveel data mist er? In andere woorden, hoeveel cells zijn leeg?
-2. Wat is het gemiddeld aantal smart meters (in procenten)?
-3. Welke postcode heeft het minst aantal connections?
-4. Van welke straat of straten mist alle data?
-5. Welke stad consumeert gemiddeld het meest?
-6. Maak 3 grafieken, met bijbehorende uitleg, waarmee je de data uit het Excel bestand inzichtelijk maakt.
-
-## Samenwerken
-
-```{tip}
-Je doet deze opdracht in tweetallen. Maak afspraken over hoe je de opdracht gezamelijk uitvoert.
+```{warning}
+Deze opdracht, alsook de opdrachten van week 2, 3, 4 en 5, voer je individueel uit.
 ```
+## Deadline
+
+De deadline voor opdracht 2 is de donderdagavond (23.59) de week na deze workshop.
