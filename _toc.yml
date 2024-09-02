@@ -39,7 +39,7 @@ parts:
     title: Week 2 - Python
     sections:
       - file: class/week02/week2_python
-        title: Python introductie
+        title: Introductie Python
       - file: class/week02/Week_2_Opdracht
         title: Opdracht
 - caption: Deel 2 - Python & Data
