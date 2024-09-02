@@ -8,6 +8,11 @@ parts:
     title: Werken met Google Colab
 - caption: Deel 1 - Introductie Python
   chapters:
+  - file: class/week01/week01_summary
+    title: Week 1 - Introductie!
+    sections:
+      - file: class/week01/Python_basis
+        title: Opdracht 123
   - file: class/week02/week02_summary
     title: Week 2 - Python
     sections:
@@ -15,11 +20,6 @@ parts:
         title: Introductie Python
       - file: class/week02/Week_2_Opdracht
         title: Opdracht
-  - file: class/week01/week01_summary
-    title: Week 1 - Introductie!
-    sections:
-      - file: class/week01/Python_basis
-        title: Opdracht 123
 - caption: Deel 2 - Python & Data
   chapters:
   - file: class/week03/week03_summary
