@@ -35,7 +35,7 @@ parts:
     sections:
       - file: class/week01/Python_basis
         title: Opdracht
-      - file: class/week02/Week_2_Opdracht
+      - file: class/week01/Python_basis
         title: Opdracht 123
   - file: class/week02/week02_summary
     title: Week 2 - Python
