@@ -3,6 +3,7 @@ root: about/unsyllabus
 parts:
 - caption: Over de workshopserie
   chapters:
+  - file: about/schedule.md
   - file: about/faq
   - url: https://colab.research.google.com/
     title: Werken met Google Colab
