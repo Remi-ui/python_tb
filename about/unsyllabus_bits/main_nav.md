@@ -24,7 +24,7 @@ Een lijst met veelgestelde vragen en de antwoorden hierop.
 :::
 
 :::{grid-item-card}
-:link: evaluation
+:link: https://remi-ui.github.io/python_tb/about/syllabus_bits/beoordeling.html
 :class-header: sd-bg-secondary sd-text-white
 
 Toetsing en beoordeling ✅
