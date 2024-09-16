@@ -15,6 +15,7 @@ Information about the teaching team and how to contact us.
 
 :::{grid-item-card}
 :link: https://remi-ui.github.io/python_tb/about/syllabus_bits/schedule.html
+:link-alt: example.com
 :class-header: sd-bg-dark sd-text-white
 
 Course Schedule 🗓
@@ -103,3 +104,7 @@ What to do if you have to miss things because of special days (including getting
 :::
 
 ::::
+
+:::{card} Clickable Card (external)
+:link: https://example.com
+:link-alt: example.com
