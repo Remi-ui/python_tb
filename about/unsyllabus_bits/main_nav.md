@@ -25,7 +25,7 @@ Een lijst met veelgestelde vragen en de antwoorden hierop.
 
 :::{grid-item-card}
 :link: evaluation
-:class-header: sd-bg-primary sd-text-white
+:class-header: sd-bg-secondary sd-text-white
 
 Toetsing en beoordeling ✅
 ^^^
