@@ -1,6 +1,6 @@
 Hieronder is een schema te vinden van de opzet van deze lessenserie.
 
-| Wk | Onderwerp                                     | Huiswerk                   | inleverdatum weekopdracht      |
+| Wk | Onderwerp                                     | Huiswerk                   | Inleverdatum weekopdracht      |
 |----|-----------------------------------------------|----------------------------|--------------------------------|
 | 1  | Introductie - Wat is programmeren?            | Google Colab               | Donderdagavond week na college |
 | 2  | De basis van Python.                          | Google Colab               | Donderdagavond week na college |
