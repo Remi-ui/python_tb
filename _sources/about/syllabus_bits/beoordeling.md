@@ -1,7 +1,7 @@
 (page_topic7)=
 Toetsing & beoordeling
 =======================
-Om Datageletterdheid moet je zowel de weekopdrachten (ten minste vier van de vijf) als de eindopdracht met een voldoende hebben afgerond. Hoe dit in zijn werking gaat staat hierna beschreven.
+Om Datageletterdheid af te ronden moet je zowel de weekopdrachten (ten minste vier van de vijf) als de eindopdracht met een voldoende hebben afgerond. Hoe dit in zijn werking gaat staat hierna beschreven.
 
 ## Weekopdrachten
 Tijdens de eerste vijf lesweken worden er weekopdrachten meegegeven. Al deze opdrachten worden individueel uitgevoerd en beoordeeld. Ten minste vier van de vijf weekopdrachten moeten met een voldoende worden afgerond om een cijfer te kunnen ontvangen op de eindopdracht.
