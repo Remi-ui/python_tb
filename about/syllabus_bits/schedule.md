@@ -1,3 +1,5 @@
+Planning
+=======================
 Hieronder is een schema te vinden van de opzet van deze lessenserie.
 
 | Wk | Onderwerp                                     | Huiswerk                   | Inleverdatum weekopdracht      |
