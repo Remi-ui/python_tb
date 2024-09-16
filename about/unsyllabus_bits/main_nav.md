@@ -15,7 +15,6 @@ Information about the teaching team and how to contact us.
 
 :::{grid-item-card}
 :link: [planning](https://remi-ui.github.io/python_tb/about/syllabus_bits/schedule.html))
-:link-type: ref
 :class-header: sd-bg-dark sd-text-white
 
 Course Schedule 🗓
