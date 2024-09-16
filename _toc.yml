@@ -4,6 +4,7 @@ parts:
 - caption: Over de workshopserie
   chapters:
   - file: about/syllabus_bits/schedule.md
+  - file: about/syllabus_bits/beoordeling.md
   - file: about/faq
   - url: https://colab.research.google.com/
     title: Werken met Google Colab
