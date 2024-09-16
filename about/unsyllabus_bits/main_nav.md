@@ -14,8 +14,8 @@ Information about the teaching team and how to contact us.
 :::
 
 :::{grid-item-card}
-:link: schedule
-:link-type: ref
+:link: [planning]([./myst.md](https://remi-ui.github.io/python_tb/about/syllabus_bits/schedule.html))
+:link-type: url
 :class-header: sd-bg-dark sd-text-white
 
 Course Schedule 🗓
