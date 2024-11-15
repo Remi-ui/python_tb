@@ -8,6 +8,7 @@ Deze week beginnen we met een introductie. De powerpoint is [hier](../../files/s
 
 ## Benodigdheden
 - [De powerpoint](../../files/stuurinformatie_workshop_1_introductie.pptx)
+- [Het Excel bestand](../../files/intro_file_stuurinfo_week_1.xlsx)
 - Een laptop of vaste computer
 
 ## De opdracht
