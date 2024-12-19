@@ -35,6 +35,9 @@ parts:
   chapters:
   - file: class/week05/week05_summary
     title: Week 5 - Python & visualiseren
+    sections:
+      - file: class/week05/oefening_visualiseren
+        title: Oefening visualiseren
   - file: class/week06/week06_summary
     title: Week 6 - Eindopdracht
   - file: class/week07/week07_summary
