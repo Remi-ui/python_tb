@@ -90,7 +90,7 @@ Je verslag bevat tenminste:
 Lever je verslag in als *ipynb* bestand in via eJournal. Dit betekent dus dat zowel het verslag, als de code aanwezig is in je .ipynb bestand.
 
 ### Deadline
-De deadline voor deze opdracht is donderdag 13 juni 23.59.
+De deadline voor deze opdracht is donderdag 23 januari 23.59.
 
 ### Samenwerken
 Je doet deze opdracht in groepen van 3 of 4.
