@@ -7,8 +7,8 @@ Hieronder is een schema te vinden van de opzet van deze lessenserie. De deadline
 | 1  | Introductie - Wat is programmeren?            | Google Colab               | Donderdagavond week na college |
 | 2  | De basis van Python.                          | Google Colab               | Donderdagavond week na college |
 | 3  | Python & Data - Deel 1                        | Google Colab               | Donderdagavond week na college |
-| 3  | Python & Data - Deel 1                        | Codecademy                 | Tijdens college week van 6     |
-| 4  | Python & Data - Deel 2                        | Codecademy                 | Tijdens college week van 6     |
-| 5  | Datavisualisatie met Python                   | Codecademy                 | Tijdens college week van 6     |
+| 3  | Python & Data - Deel 1                        | Codecademy                 | Tijdens college van week 6     |
+| 4  | Python & Data - Deel 2                        | Codecademy                 | Tijdens college van week 6     |
+| 5  | Datavisualisatie met Python                   | Codecademy                 | Tijdens college van week 6     |
 | 6  | Eindopdracht                                  | Werken aan Eindopdracht    | -                              |
 | 7  | Eindopdracht                                  | Eindopdracht               | Donderdagavond week na college |
