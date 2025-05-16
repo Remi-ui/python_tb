@@ -26,6 +26,7 @@ Je verslag bevat tenminste:
 3. Een beschrijving én analyse van elk figuur.
 4. Een advies aan het ministerie van Economische Zaken en Klimaat op basis van je analyse.
 5. De individuele bijdrage is inzichtelijk gemaakt.
+6. Het verslag en de code zijn ingeleverd als één .ipynb bestand.
 
 ### Hulpmiddelen
 ```{dropdown} Google Colab verbinden met Google Drive
