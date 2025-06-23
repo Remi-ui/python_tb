@@ -1,4 +1,4 @@
-![](../images/laptop.png)
+![](../images/laptop.jpg)
 
 # Welkom
 
