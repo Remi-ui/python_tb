@@ -7,7 +7,7 @@ Deze week gaan we bezig met Python en Data.
 ## Benodigdheden
 - [De powerpoint](../../files/stuurinformatie_workshop_4_python_data_2.pptx)
 - Een account op [Codecademy](https://www.codecademy.com/)
-- [Data verkennen oefening](../../files/data_verkennen_oefening.ipynb)
+- [Data verkennen oefening](https://remi-ui.github.io/python_tb/class/week04/data_verkennen_oefening.html)
 
 ## De opdracht
 
