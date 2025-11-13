@@ -31,6 +31,9 @@ parts:
         title: Opdracht
   - file: class/week04/week04_summary
     title: Week 4 - Python & Data 2
+    sections:
+      - file: class/week04/data_verkennen_oefening
+        title: Data verkennen oefening
 - caption: Deel 3 - Visualiseren
   chapters:
   - file: class/week05/week05_summary
