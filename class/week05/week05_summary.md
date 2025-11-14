@@ -16,4 +16,4 @@ Doorloop het eerstee en tweede deel van de course [Intro to Data Visualization w
 
 ## Deadline
 
-De deadline voor opdracht 5 is de volgende workshop. Tijdens de volgende workshop (week 6) wordt de Codecademy opdracht tijdens de workshop afgetekend.
+De deadline voor de Codecademy-opdrachten is de workshop van Datageletterdheid 6. Tijdens de workshop zullen de Codecademy-opdrachten worden afgetekend.
