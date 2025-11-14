@@ -16,4 +16,4 @@ Doorloop het tweede en derde deel van de course [Getting Started with Python for
 <iframe src="https://www.codecademy.com/courses/getting-started-with-python-for-data-science/" width="100%" height="600px" allowfullscreen></iframe>
 
 ## Deadline
-De deadline voor opdracht 4 is de volgende workshop. Tijdens de volgende workshop (week 5) wordt de Codecademy opdracht tijdens de workshop afgetekend.
+De deadline voor de Codecademy-opdrachten is de workshop van Datageletterdheid 6. Tijdens de workshop zullen de Codecademy-opdrachten worden afgetekend.
