@@ -5,6 +5,7 @@ parts:
   chapters:
   - file: about/syllabus_bits/schedule.md
   - file: about/syllabus_bits/beoordeling.md
+  - file: about/syllabus_bits/toetsvoorbereiding.md
   - file: about/faq
   - url: https://colab.research.google.com/
     title: Werken met Google Colab
