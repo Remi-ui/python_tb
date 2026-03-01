@@ -5,7 +5,12 @@ parts:
   chapters:
   - file: about/syllabus_bits/schedule.md
   - file: about/syllabus_bits/beoordeling.md
+  - file: 
   - file: about/syllabus_bits/toetsvoorbereiding.md
+    title: Toetsvoorbereiding
+    sections:
+      - file: about/syllabus_bits/proeftentamen
+        title: Proeftentamen
   - file: about/faq
   - url: https://colab.research.google.com/
     title: Werken met Google Colab
