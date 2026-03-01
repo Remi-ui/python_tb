@@ -5,7 +5,6 @@ parts:
   chapters:
   - file: about/syllabus_bits/schedule.md
   - file: about/syllabus_bits/beoordeling.md
-  - file: 
   - file: about/syllabus_bits/toetsvoorbereiding
     title: Toetsvoorbereiding
     sections:
