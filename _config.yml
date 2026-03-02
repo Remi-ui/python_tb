@@ -35,11 +35,6 @@ launch_buttons:
   binderhub_url      : "https://mybinder.org/"
   thebe              : true
 
-repository:
-  url          : https://github.com/remi-ui/python_tb
-  path_to_book : ""
-  branch       : main
-
 sphinx:
   config:
     html_show_copyright: false
