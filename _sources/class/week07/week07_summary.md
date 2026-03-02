@@ -19,7 +19,7 @@ Let er op dat om het voorbeeld werkende te krijgen, je de [de dataset](https://g
 
 Verder krijg je bij het uitvoeren van het voorbeeld waarschijnlijk errors gerelateerd aan het niet bestaan van bepaalde mappen/bestanden. Dit komt doordat de mappenstructuur binnen jouw Google Drive waarschijnlijk anders is dan de aangenomen mappenstructuur in het voorbeeld. Hoe je hiermee om kunt gaan kun je [hier](https://www.youtube.com/watch?v=InZ16tcM9Pc&ab_channel=DataProfessor) vinden.
 
-### Voorwaarden
+### Randvoorwaarden
 Je verslag bevat tenminste:
 1. 8 Zelf gemaakte figuren, gemaakt met het gegeven dataset.
 2. Zelf geschreven code. Je mag het voorbeeld gebruiken als hulpmiddel, maar je mag niet dezelfde figuren gebruiken. Als grotere stukken van je code te vinden zijn op het internet of geschreven is door programma's als ChatGPT, is dit plagiaat. Programma's als ChatGPT en hulpmiddelen als Stackoverflow mogen uiteraard gebruikt worden, echter moet hierbij de bron altijd vermeld worden. Ook hierbij mag het niet gaan om grotere stukken code.
