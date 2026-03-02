@@ -9,6 +9,15 @@ Tijdens de eerste vijf lesweken worden er weekopdrachten meegegeven. Al deze opd
 ## Eindopdracht
 De eindopdracht wordt gedaan in groepen van 4 of 5. Deze opdracht wordt beoordeeld met een cijfer. Bij het beoordelen van de eindopdracht gelden de onderstaande beoordelingscriteria.
 
+### Randvoorwaarden
+Je verslag bevat tenminste:
+1. 8 Zelf gemaakte figuren, gemaakt met het gegeven dataset.
+2. Zelf geschreven code. Je mag het voorbeeld gebruiken als hulpmiddel, maar je mag niet dezelfde figuren gebruiken. Als grotere stukken van je code te vinden zijn op het internet of geschreven is door programma's als ChatGPT, is dit plagiaat. Programma's als ChatGPT en hulpmiddelen als Stackoverflow mogen uiteraard gebruikt worden, echter moet hierbij de bron altijd vermeld worden. Ook hierbij mag het niet gaan om grotere stukken code.
+3. Een beschrijving én analyse van elk figuur.
+4. Een advies aan het ministerie van Economische Zaken en Klimaat op basis van je analyse.
+5. De individuele bijdrage is inzichtelijk gemaakt.
+6. Het verslag en de code zijn ingeleverd als één .ipynb bestand.
+
 ### Code (33%)
 - De code is leesbaar.
 - De code is voorzien van commentaar.
